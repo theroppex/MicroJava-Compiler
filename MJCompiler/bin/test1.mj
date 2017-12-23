@@ -1,0 +1,29 @@
+program MJProgram
+	int x; int y[];
+{	
+	int k () int c; int y;{
+		c = 10;
+		read(y);
+		return c*(- y);
+	}
+	
+	void main() int f[]; char c;{
+		
+		x = 1;
+		x++;
+		print(x);
+		print(eol);
+		x--;
+		print(x);
+		print(eol);
+		f = new int [1];
+		f[0] = 5;
+		print(f[0]);
+		print(eol);
+		f[0]++;
+		print(f[0]);
+		print(eol);
+		f[0]--;
+		print(f[0]);
+	}
+}

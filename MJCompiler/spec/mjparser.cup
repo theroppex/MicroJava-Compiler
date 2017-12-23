@@ -1,0 +1,368 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import org.apache.log4j.*;
+
+parser code {:
+    
+	Logger log = Logger.getLogger(getClass());
+	  
+    
+    public void report_fatal_error(String message, Object   info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("Sintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+  public void report_error(String message, Object info)
+    {
+      StringBuilder msg = new StringBuilder(message);
+      if (info instanceof Symbol)
+	        msg.append(" u liniji " + ((Symbol)info).left);
+      log.error(msg.toString());
+    }
+
+:}
+
+
+/* TERMINALI */
+terminal PROG;
+terminal LVBROP, RVBROP, LSBROP, RSBROP, LBROP, RBROP;
+
+terminal String IDENT;
+terminal CONST;
+terminal SEMIOP;
+terminal COMMAOP;
+terminal ASNOP;
+terminal Integer NUMCONST;
+terminal String BOOLCONST;
+terminal Character CHARCONST;
+terminal CLASS, EXTENDS;
+terminal VOID;
+terminal IF, ELSE;
+terminal DO, WHILE;
+terminal BREAK, CONTINUE;
+terminal RETURN;
+terminal READ, PRINT;
+terminal INCOP, DECOP;
+terminal BOOLOROP, BOOLANDOP;
+terminal MINUSOP;
+terminal POINTOP;
+terminal NEWOP;
+terminal PLUSOP;
+terminal STAROP, DIVOP, MODOP;
+
+terminal BOOLEQUOP, BOOLNEQUOP;
+terminal BOOLGTOP, BOOLGTEOP;
+terminal BOOLSTOP, BOOLSTEOP;
+
+/* NETERMINALI*/
+non terminal rs.etf.pp1.symboltable.concepts.Obj program, prog_id;
+non terminal decl_list, method_list, decl_part;
+
+non terminal const_decl, var_decl, class_decl;
+
+non terminal rs.etf.pp1.symboltable.concepts.Struct type;
+
+non terminal statement_list;
+
+non terminal const_list, const_var;
+
+non terminal class_name, opt_extend;
+
+non terminal var_list, var, var_decl_list;
+
+non terminal method_decl, method_ret_type, form_pars_list;
+non terminal rs.etf.pp1.symboltable.concepts.Obj method_name;
+non terminal form_pars_part, form_par, form_par_name;
+
+non terminal statement, designator_statement, condition, opt_else;
+non terminal rs.etf.pp1.symboltable.concepts.Struct opt_expresion;
+non terminal rs.etf.pp1.symboltable.concepts.Obj designator;
+non terminal rs.etf.pp1.symboltable.concepts.Struct expr;
+non terminal opt_num_const;
+non terminal opt_actual_pars;
+non terminal act_pars_list, act_pars;
+non terminal condition_list, cond_term, cond_term_list, cond_fact;
+non terminal relop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct term_list, term;
+non terminal adop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct factor_list, factor;
+non terminal mulop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct designator_list;
+non terminal designator_name;
+
+/* Razresavanje Konflikta */
+precedence left ELSE;
+
+/* GRAMATIKA */
+
+/* DEFINISANJE PROGRAMA */
+program ::= (Program) PROG prog_id:o decl_list LVBROP method_list RVBROP ;
+
+prog_id ::= (ProgramName) IDENT:id;
+
+type ::= (Type) IDENT:id;
+
+/* LISTA dEKLARACIJA */
+decl_list ::= (Declarations) decl_list decl_part
+							 |
+			  (NoDeclarations) /*   */
+							 ;
+
+decl_part ::= (ConstDeclarationPart) const_decl
+                             |
+			  (VarDeclarationPart) var_decl
+			                 |
+			  (ClassDeclartionPart) class_decl
+			                 ;
+
+
+/* DEKLARACIJA KONSTANTI */
+const_decl ::= (ConstDeclartion) CONST type const_list SEMIOP;
+
+const_list ::= (ComplexConstList) const_var COMMAOP const_list
+                             |
+               (SingleConstList) const_var;
+
+const_var ::= (NumericConst) IDENT:id ASNOP NUMCONST:c
+							 |
+              (CharConst)	 IDENT:id ASNOP CHARCONST:c
+              				 |
+              (BooleanConst) IDENT:id ASNOP BOOLCONST:c
+              				 |
+              (ErrorConst)	 error
+              				 ;
+
+
+/* VARIABLE DECLARATION */
+var_decl ::= (VarDeclaration) type var_list SEMIOP;
+
+
+
+var_list ::= (MultipleVars) var_list COMMAOP var
+							|
+             (SingleVar)    var
+                            ;
+
+var ::= (NonArrayVar) IDENT:name
+              |
+        (ArrayVar) IDENT:name LSBROP RSBROP
+        	  |
+        (ErrorVar) error
+              ;
+
+        
+var_decl_list ::= (VarDeclList) var_decl_list var_decl
+                                |
+                  (EmptyVarDeclList) /*    */
+                                ;
+
+/* DEKLARACIJA KLASE */
+class_decl ::= (ClassDeclaration) CLASS class_name opt_extend LVBROP LVBROP method_list RVBROP RVBROP;
+
+class_name ::= (ClassName) IDENT:id;
+
+opt_extend ::= (Extender) EXTENDS type
+						  |
+               (EmptyExtender) /*    */
+                          ;
+
+/* DEKLARACIJA METODE */
+method_list ::= (MethodList) method_list method_decl
+							|
+				(EmptyMethodList) /*    */
+;
+
+method_decl ::= (MethodDeclaration) method_ret_type method_name LBROP form_pars_list RBROP var_decl_list LVBROP statement_list RVBROP;
+
+method_ret_type ::= (NonVoidRetType) type
+   							|
+   					(VoidRetType) VOID
+   							;
+
+method_name ::= (MethodName) IDENT:name;
+
+form_pars_list ::= (FormParsList) form_pars_part
+                                  |
+                   (EmptyFormParsList) /*       */
+                                  ;
+
+form_pars_part ::= (ComplexFormParsPart) form_pars_part COMMAOP form_par
+                                         |
+                   (FomrParsPart)        form_par
+                                         ;
+
+form_par ::= (FormalParameter) type form_par_name
+                               |
+             (ArrayFormParameter) type form_par_name RSBROP LSBROP
+                               ;
+
+form_par_name ::= (FormalParameterName) IDENT:name;
+
+
+/* STATEMENTS */
+statement_list ::= (StatementList) statement_list statement
+								   |
+				   (EmptyStatementList) /*   */
+				                   ;
+
+statement ::= (ExpressionStatement) designator_statement SEMIOP
+                                    |
+              (IfStatement) IF LBROP condition RBROP statement opt_else
+              						|
+              (DoWhileStatement) DO statement WHILE LBROP condition RBROP SEMIOP
+                                    |
+              (BreakStatement) BREAK SEMIOP
+                                    |
+              (ContinueStatement) CONTINUE SEMIOP
+                                    |
+              (ReturnStatement) RETURN opt_expresion SEMIOP
+                                    |
+              (ReadStatement) READ LBROP designator RBROP SEMIOP
+              						|
+              (PrintStatement) PRINT LBROP expr opt_num_const RBROP SEMIOP
+              						|
+              (BlockStatement) LVBROP statement_list RVBROP
+              						;
+
+opt_else ::= (ElseStatement) ELSE statement
+							 |
+			 (EmptyElseStatement) /*     */;
+
+opt_expresion ::= (ReturnExpresion) expr
+									|
+				  (EmptyReturnExpresion) /*      */
+				                    ;
+
+opt_num_const ::= (PrintNumConst) COMMAOP NUMCONST:width
+                                    |
+                  (EmptyPrintNumConst) /*     */
+                                    ;
+
+
+designator_statement ::= (AsignDesignatorStatement) designator ASNOP expr
+													|
+						 (SyntaxErrAsignDesStatement) designator ASNOP error
+                                                    |
+                         (FunctionCallStatement)  designator LBROP opt_actual_pars RBROP
+                         							|
+                         (IncDesignatorStatement) designator INCOP
+                                                    |
+                         (DecDesignatorStatement) designator DECOP
+                                                    ;
+
+act_pars ::= (ActualParameters) act_pars_list;
+
+act_pars_list ::= (ActualParsList) act_pars_list COMMAOP expr
+                                   |
+                  (SingleExprActualPar) expr
+                                   ;
+
+opt_actual_pars ::= (MethodCallParameters) act_pars
+                                     |
+                     (EmptyMethodCallPars)  /*       */
+                                     ;
+
+
+
+condition ::= (ConditionNode) condition_list;
+
+condition_list ::= (ComplexConditionList) condition_list BOOLOROP cond_term
+                                  		  |
+                   (SingleElementCondList) cond_term
+                                          ;
+
+cond_term ::= (ConditionTerm) cond_term_list;
+
+cond_term_list ::= (ComplexCondTermList) cond_term_list BOOLANDOP cond_fact
+                                          |
+                   (SingleElementCondTermList) cond_fact
+                                          ;
+
+cond_fact ::= (UnaryCondFact) expr
+                              |
+              (BinaryCondFact) expr relop expr
+                              ;
+
+expr ::= (Expresion) term_list;
+
+term_list ::= (ComplexTermList) term_list adop term
+                                |
+              (SingleTermList) term
+                                ;
+
+term ::= (Term) factor_list;
+
+factor_list ::= (ComplexFactorList) factor_list mulop factor
+                                    |
+                (SingleElementFactorList) factor
+                					|
+                (NegativeFactor) MINUSOP factor
+                                    ;
+
+factor ::= (VariableFactor) designator
+                            |
+           (FunctionResultNoParamFactor) designator LBROP RBROP
+                            |
+           (FunctionResultWParamFactor) designator LBROP act_pars RBROP
+                            |
+           (NumericConstFactor) NUMCONST
+                            |
+           (BoolConstFactor) BOOLCONST
+                            |
+           (CharConstFactor) CHARCONST
+           					|
+           (NewClassFactor) NEWOP type
+                            |
+           (NewArrayFactor) NEWOP type LSBROP expr RSBROP
+                            |
+           (ComplexFactor) LBROP expr RBROP
+                            ;
+
+
+designator ::= (Designator) designator_name designator_list;
+
+designator_name ::= (Designator_name) IDENT:name;
+
+designator_list ::= (ClassFieldDesignatorList) POINTOP IDENT:field designator_list
+                                               |
+                    (ArrayElementDesignatorList) LSBROP expr RSBROP designator_list
+                                               |
+                    (EmptyDesignatorList) /*       */
+                                               ;
+
+
+relop ::= (EqualsRelop) BOOLEQUOP
+                       	|
+          (NotEqualRelop) BOOLNEQUOP
+          			   	|
+          (GreaterRelop) BOOLGTOP
+                        |
+          (GreaterEquRelop) BOOLGTEOP
+                        |
+          (LessRelop) BOOLSTOP
+                        |
+          (LessEquRelop) BOOLSTEOP
+                        ;
+
+
+adop ::= (PlusAdop) PLUSOP
+                  	|
+         (MinusAdop) MINUSOP
+                    ;
+
+mulop ::= (StarMulop) STAROP
+                    |
+          (DivMulop) DIVOP
+                    |
+          (ModMulop) MODOP
+                    ;

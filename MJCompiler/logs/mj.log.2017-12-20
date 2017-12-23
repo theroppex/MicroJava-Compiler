@@ -1,0 +1,189 @@
+ERROR 00:14:18,698 - Sintaksna greska u liniji 9
+DEBUG 00:14:18,717 - Posecen ProgramName na liniji 1
+DEBUG 00:14:18,717 - Posecen Type na liniji 3
+DEBUG 00:14:18,718 - Posecen CharConst na liniji 3
+DEBUG 00:14:18,718 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:14:18,718 - Posecen Type na liniji 5
+DEBUG 00:14:18,718 - Posecen CharConst na liniji 5
+DEBUG 00:14:18,718 - Posecen CharConst na liniji 5
+DEBUG 00:14:18,718 - Posecen CharConst na liniji 5
+DEBUG 00:14:18,718 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:14:18,719 - Posecen Program na liniji 1
+DEBUG 00:15:18,573 - Posecen ProgramName na liniji 1
+DEBUG 00:15:18,574 - Posecen Type na liniji 3
+DEBUG 00:15:18,574 - Posecen CharConst na liniji 3
+DEBUG 00:15:18,574 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:15:18,575 - Posecen Type na liniji 5
+DEBUG 00:15:18,575 - Posecen CharConst na liniji 5
+DEBUG 00:15:18,575 - Posecen CharConst na liniji 5
+DEBUG 00:15:18,575 - Posecen CharConst na liniji 5
+DEBUG 00:15:18,575 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:15:18,575 - Posecen Program na liniji 1
+ERROR 00:20:28,109 - Sintaksna greska u liniji 9
+DEBUG 00:20:28,141 - Posecen ProgramName na liniji 1
+DEBUG 00:20:28,142 - Posecen Type na liniji 3
+DEBUG 00:20:28,142 - Posecen CharConst na liniji 3
+DEBUG 00:20:28,142 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:20:28,142 - Posecen Type na liniji 5
+DEBUG 00:20:28,142 - Posecen CharConst na liniji 5
+DEBUG 00:20:28,142 - Posecen CharConst na liniji 5
+DEBUG 00:20:28,142 - Posecen CharConst na liniji 5
+DEBUG 00:20:28,142 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:20:28,142 - Posecen Program na liniji 1
+ERROR 00:22:35,104 - Sintaksna greska u liniji 9
+DEBUG 00:22:35,119 - Posecen ProgramName na liniji 1
+DEBUG 00:22:35,119 - Posecen Type na liniji 3
+DEBUG 00:22:35,119 - Posecen CharConst na liniji 3
+DEBUG 00:22:35,119 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:22:35,119 - Posecen Type na liniji 5
+DEBUG 00:22:35,119 - Posecen CharConst na liniji 5
+DEBUG 00:22:35,119 - Posecen CharConst na liniji 5
+DEBUG 00:22:35,119 - Posecen CharConst na liniji 5
+DEBUG 00:22:35,119 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:22:35,119 - Posecen Program na liniji 1
+ERROR 00:23:12,773 - Sintaksna greska u liniji 9
+DEBUG 00:23:12,795 - Posecen ProgramName na liniji 1
+DEBUG 00:23:12,795 - Posecen Type na liniji 3
+DEBUG 00:23:12,795 - Posecen CharConst na liniji 3
+DEBUG 00:23:12,795 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:23:12,795 - Posecen Type na liniji 5
+DEBUG 00:23:12,795 - Posecen CharConst na liniji 5
+DEBUG 00:23:12,795 - Posecen CharConst na liniji 5
+DEBUG 00:23:12,795 - Posecen CharConst na liniji 5
+DEBUG 00:23:12,795 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:23:12,795 - Posecen Program na liniji 1
+DEBUG 00:23:37,248 - Posecen ProgramName na liniji 1
+DEBUG 00:23:37,248 - Posecen Type na liniji 3
+DEBUG 00:23:37,248 - Posecen CharConst na liniji 3
+DEBUG 00:23:37,248 - Posecen ConstDeclaration na liniji 3
+DEBUG 00:23:37,248 - Posecen Type na liniji 5
+DEBUG 00:23:37,248 - Posecen CharConst na liniji 5
+DEBUG 00:23:37,248 - Posecen CharConst na liniji 5
+DEBUG 00:23:37,248 - Posecen CharConst na liniji 5
+DEBUG 00:23:37,248 - Posecen ConstDeclaration na liniji 5
+DEBUG 00:23:37,248 - Posecen Program na liniji 1
+ERROR 00:25:43,464 - Sintaksna greska u liniji 9
+ERROR 00:25:43,479 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 9
+DEBUG 10:06:46,253 - Posecen ProgramName na liniji 1
+DEBUG 10:06:46,253 - Posecen Type na liniji 3
+DEBUG 10:06:46,253 - Posecen CharConst na liniji 3
+DEBUG 10:06:46,253 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:06:46,253 - Posecen Type na liniji 5
+DEBUG 10:06:46,253 - Posecen CharConst na liniji 5
+DEBUG 10:06:46,253 - Posecen CharConst na liniji 5
+DEBUG 10:06:46,253 - Posecen CharConst na liniji 5
+DEBUG 10:06:46,253 - Posecen ConstDeclaration na liniji 5
+DEBUG 10:06:46,253 - Posecen Program na liniji 1
+DEBUG 10:11:06,998 - Posecen ProgramName na liniji 1
+DEBUG 10:11:06,999 - Posecen Type na liniji 3
+DEBUG 10:11:06,999 - Posecen CharConst na liniji 3
+DEBUG 10:11:06,999 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:11:06,999 - Posecen Type na liniji 5
+DEBUG 10:11:06,999 - Posecen CharConst na liniji 5
+DEBUG 10:11:06,999 - Posecen CharConst na liniji 5
+DEBUG 10:11:06,999 - Posecen CharConst na liniji 5
+DEBUG 10:11:06,999 - Posecen ConstDeclaration na liniji 5
+DEBUG 10:11:07,000 - Posecen Program na liniji 1
+ERROR 10:20:56,216 - Sintaksna greska u liniji 3
+DEBUG 10:20:56,239 - Posecen ProgramName na liniji 1
+DEBUG 10:20:56,239 - Posecen Type na liniji 3
+DEBUG 10:20:56,239 - Posecen Program na liniji 1
+DEBUG 10:21:19,895 - Posecen ProgramName na liniji 1
+DEBUG 10:21:19,895 - Posecen Type na liniji 3
+DEBUG 10:21:19,895 - Posecen BooleanConst na liniji 3
+DEBUG 10:21:19,895 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:21:19,895 - Posecen Program na liniji 1
+DEBUG 10:24:08,436 - Posecen ProgramName na liniji 1
+DEBUG 10:24:08,437 - Posecen Type na liniji 3
+DEBUG 10:24:08,437 - Posecen BooleanConst na liniji 3
+DEBUG 10:24:08,437 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:24:08,438 - Posecen Program na liniji 1
+DEBUG 10:27:23,763 - Posecen ProgramName na liniji 1
+DEBUG 10:27:23,763 - Posecen Type na liniji 3
+DEBUG 10:27:23,763 - Posecen BooleanConst na liniji 3
+DEBUG 10:27:23,763 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:27:23,763 - Posecen Program na liniji 1
+DEBUG 10:29:24,055 - Posecen ProgramName na liniji 1
+DEBUG 10:29:24,055 - Posecen Type na liniji 3
+DEBUG 10:29:24,055 - Posecen BooleanConst na liniji 3
+DEBUG 10:29:24,055 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:29:24,055 - Posecen Program na liniji 1
+DEBUG 10:38:42,818 - Posecen ProgramName na liniji 1
+DEBUG 10:38:42,818 - Posecen Type na liniji 3
+DEBUG 10:38:42,818 - Posecen BooleanConst na liniji 3
+DEBUG 10:38:42,818 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:38:42,818 - Posecen Program na liniji 1
+DEBUG 10:39:13,418 - Posecen ProgramName na liniji 1
+DEBUG 10:39:13,418 - Posecen Type na liniji 3
+DEBUG 10:39:13,418 - Posecen BooleanConst na liniji 3
+DEBUG 10:39:13,418 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:39:13,418 - Posecen Program na liniji 1
+DEBUG 10:39:31,603 - Posecen ProgramName na liniji 1
+DEBUG 10:39:31,603 - Posecen Type na liniji 3
+DEBUG 10:39:31,603 - Posecen BooleanConst na liniji 3
+DEBUG 10:39:31,603 - Posecen NumericConst na liniji 3
+ERROR 10:39:31,603 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+DEBUG 10:39:31,603 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:39:31,603 - Posecen Program na liniji 1
+DEBUG 10:40:26,845 - Posecen ProgramName na liniji 1
+DEBUG 10:40:26,845 - Posecen Type na liniji 3
+DEBUG 10:40:26,845 - Posecen BooleanConst na liniji 3
+DEBUG 10:40:26,845 - Posecen NumericConst na liniji 3
+ERROR 10:40:26,845 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+DEBUG 10:40:26,845 - Posecen NumericConst na liniji 3
+ERROR 10:40:26,845 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+DEBUG 10:40:26,845 - Posecen BooleanConst na liniji 3
+DEBUG 10:40:26,845 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:40:26,845 - Posecen Program na liniji 1
+DEBUG 10:41:00,327 - Posecen ProgramName na liniji 1
+DEBUG 10:41:00,327 - Posecen Type na liniji 3
+DEBUG 10:41:00,327 - Posecen BooleanConst na liniji 3
+DEBUG 10:41:00,327 - Posecen NumericConst na liniji 3
+ERROR 10:41:00,327 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+DEBUG 10:41:00,327 - Posecen BooleanConst na liniji 3
+ERROR 10:41:00,343 - Semanticka greska: Konstanta bool je vec definisana na liniji 3
+DEBUG 10:41:00,343 - Posecen BooleanConst na liniji 3
+DEBUG 10:41:00,343 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:41:00,343 - Posecen Program na liniji 1
+DEBUG 10:42:03,262 - Posecen ProgramName na liniji 1
+DEBUG 10:42:03,262 - Posecen Type na liniji 3
+DEBUG 10:42:03,262 - Posecen NumericConst na liniji 3
+DEBUG 10:42:03,262 - Posecen BooleanConst na liniji 3
+ERROR 10:42:03,262 - Semanticka greska: Tip nije kompatibilan ocekivan bool na liniji 3
+DEBUG 10:42:03,262 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:42:03,262 - Posecen Program na liniji 1
+DEBUG 10:43:35,790 - Posecen ProgramName na liniji 1
+DEBUG 10:43:35,790 - Posecen Type na liniji 3
+DEBUG 10:43:35,790 - Posecen CharConst na liniji 3
+DEBUG 10:43:35,790 - Posecen CharConst na liniji 3
+DEBUG 10:43:35,790 - Posecen ConstDeclaration na liniji 3
+DEBUG 10:43:35,790 - Posecen Type na liniji 4
+DEBUG 10:43:35,790 - Posecen NumericConst na liniji 4
+DEBUG 10:43:35,790 - Posecen ConstDeclaration na liniji 4
+DEBUG 10:43:35,790 - Posecen Type na liniji 5
+DEBUG 10:43:35,790 - Posecen BooleanConst na liniji 5
+DEBUG 10:43:35,790 - Posecen ConstDeclaration na liniji 5
+DEBUG 10:43:35,790 - Posecen Program na liniji 1
+DEBUG 11:01:18,404 - Posecen ProgramName na liniji 1
+DEBUG 11:01:18,404 - Posecen Type na liniji 3
+DEBUG 11:01:18,404 - Posecen VarDeclaration na liniji 3
+DEBUG 11:01:18,404 - Posecen Program na liniji 1
+DEBUG 11:10:05,497 - Posecen ProgramName na liniji 1
+DEBUG 11:10:05,497 - Posecen Type na liniji 3
+ERROR 11:10:05,497 - Semanticka greska: Tip min nije validan na liniji 3
+DEBUG 11:10:05,497 - Posecen NumericConst na liniji 3
+ERROR 11:10:05,497 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+DEBUG 11:10:05,497 - Posecen ConstDeclaration na liniji 3
+DEBUG 11:10:05,497 - Posecen Program na liniji 1
+ERROR 11:10:56,490 - Semanticka greska: Tip min nije validan na liniji 3
+ERROR 11:10:56,490 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+ERROR 11:19:15,709 - Semanticka greska: Konstanta x je vec definisana na liniji 4
+ERROR 11:28:47,010 - Semanticka greska: Nije definisana main metoda na liniji 1
+ERROR 11:46:13,809 - Semanticka greska: Varijabla x je vec deklarisana na liniji 9
+ERROR 11:54:03,788 - Semanticka greska: Metoda vec definisana y na liniji 13
+ERROR 12:21:21,106 - Sintaksna greska u liniji 3
+ERROR 12:43:46,647 - Semanticka greska: Tip nije kompatibilan ocekivan int na liniji 3
+ERROR 13:44:07,563 - Semanticka greska: Nije definisana main metoda na liniji 1
+ERROR 14:29:58,563 - Sintaksna greska u liniji 7
+ERROR 14:33:44,723 - Semanticka greska: Nisu podrzani visedimenzioni nizovi na liniji 7
+ERROR 14:37:49,491 - Semanticka greska: Nisu podrzani visedimenzioni nizovi na liniji 7

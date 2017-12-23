@@ -1,0 +1,546 @@
+ERROR 13:45:43,700 - Semanticka greska: Ocekivana referenca na Array na liniji 11
+ERROR 13:46:27,611 - Semanticka greska: Varijabla tipa Array ne moze da se korsiti na ovom mestu na liniji 11
+ERROR 13:48:31,351 - Semanticka greska: Varijabla hello nije deklarisana na liniji 11
+ERROR 13:50:13,693 - Sintaksna greska u liniji 4
+ERROR 13:50:13,724 - Semanticka greska: Tip nije kompatibilan ocekivan char na liniji 4
+ERROR 13:50:13,724 - Semanticka greska: Varijabla dd nije deklarisana na liniji 13
+ERROR 13:50:13,724 - Semanticka greska: Varijabla m nije deklarisana na liniji 13
+ERROR 13:51:18,702 - Sintaksna greska u liniji 4
+ERROR 13:51:18,722 - Semanticka greska: Tip nije kompatibilan ocekivan char na liniji 4
+ERROR 13:51:18,722 - Semanticka greska: Klasna polja nisu podrzana na liniji 13
+ERROR 13:51:57,905 - Sintaksna greska u liniji 4
+ERROR 13:51:57,920 - Semanticka greska: Tip nije kompatibilan ocekivan char na liniji 4
+ERROR 13:51:57,920 - Semanticka greska: Ocekivana referenca na Array na liniji 13
+ERROR 14:04:28,682 - Semanticka greska: Tip nije validan na liniji 2
+ERROR 14:04:28,682 - Semanticka greska: Tip foo nije validan na liniji 3
+ERROR 14:04:28,682 - Semanticka greska: Tip nije validan na liniji 3
+ERROR 14:04:28,682 - Semanticka greska: Tip nije validan na liniji 4
+ERROR 14:04:28,682 - Semanticka greska: Tip zoro nije validan na liniji 5
+ERROR 14:04:28,682 - Semanticka greska: Tip nije validan na liniji 5
+ERROR 14:04:28,682 - Semanticka greska: Tip nije validan na liniji 6
+ERROR 14:07:45,048 - Semanticka greska: Tip nije validan na liniji 2
+ERROR 14:07:45,048 - Semanticka greska: Tip foo nije validan na liniji 3
+ERROR 14:07:45,048 - Semanticka greska: Tip nije validan na liniji 3
+ERROR 14:07:45,048 - Semanticka greska: Tip nije validan na liniji 4
+ERROR 14:07:45,048 - Semanticka greska: Tip zoro nije validan na liniji 5
+ERROR 14:07:45,048 - Semanticka greska: Tip nije validan na liniji 5
+ERROR 14:07:45,048 - Semanticka greska: Tip nije validan na liniji 6
+ERROR 14:08:45,132 - Semanticka greska: Tip foo nije validan na liniji 3
+ERROR 14:08:45,132 - Semanticka greska: Tip nije validan na liniji 3
+ERROR 14:08:45,132 - Semanticka greska: Tip zoro nije validan na liniji 5
+ERROR 14:08:45,132 - Semanticka greska: Tip nije validan na liniji 5
+ERROR 14:09:24,038 - Semanticka greska: Tip foo nije validan na liniji 3
+ERROR 14:09:24,038 - Semanticka greska: Tip nije validan na liniji 3
+ERROR 14:09:24,038 - Semanticka greska: Tip zoro nije validan na liniji 5
+ERROR 14:09:24,038 - Semanticka greska: Tip nije validan na liniji 5
+ERROR 14:25:18,298 - Semanticka greska: Ocekivana metoda na liniji 9
+ERROR 14:44:15,423 - Semanticka greska: Tip foo nije validan na liniji 9
+ERROR 14:44:15,423 - Semanticka greska: Tip nije validan na liniji 9
+ERROR 14:48:47,851 - Semanticka greska: Tip foo nije validan na liniji 9
+ERROR 14:48:47,851 - Semanticka greska: Broj elemenata niza mora biti tipa int na liniji 9
+ERROR 14:56:24,787 - Semanticka greska: Tip foo nije validan na liniji 9
+ERROR 14:56:24,787 - Semanticka greska: Broj elemenata niza mora biti tipa int na liniji 9
+ERROR 14:56:50,749 - Semanticka greska: Broj elemenata niza mora biti tipa int na liniji 9
+ERROR 15:11:13,784 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:11:29,558 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:12:04,468 - Semanticka greska: Broj elemenata niza mora biti tipa int na liniji 10
+ERROR 15:13:36,903 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:13:36,903 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:13:36,903 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:13:36,903 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:13:36,903 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Varijabla m nije deklarisana na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:14:21,366 - Semanticka greska: Ocekivani operandi tipa int na liniji 10
+ERROR 15:15:15,181 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 15:15:15,181 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:15:15,181 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:15:15,181 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:15:15,181 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:15:15,197 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  15:56:29,256 - Detektovan simbol rs.etf.pp1.symboltable.concepts.Obj@5e9f23b4 - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 15:56:29,256 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  16:04:46,431 - Detektovan simbol Var x: , 0, 1  - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:04:46,431 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  16:06:39,605 - Detektovan simbol Var x: 0, 1  - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:06:39,605 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  16:07:18,597 - Detektovan simbol Var x: 0, 1 - na liniji 10
+ERROR 16:07:18,597 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 16:07:18,598 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:07:18,598 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:07:18,598 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:07:18,598 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:07:18,598 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 16:08:18,640 - Sintaksna greska u liniji 6
+ERROR 16:08:18,640 - Sintaksna greska u liniji 12
+ERROR 16:08:18,640 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 12
+INFO  16:08:43,638 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:08:43,638 - Detektovan simbol Var y: 0, 0 - na liniji 12
+INFO  16:08:43,638 - Detektovan simbol Var z: 1, 0 - na liniji 12
+INFO  16:08:43,638 - Detektovan simbol Var d: 2, 0 - na liniji 12
+INFO  16:08:43,638 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 16:08:43,638 - Semanticka greska: Ocekivani operandi tipa int - na liniji 12
+INFO  16:09:33,030 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:09:33,030 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:09:33,030 - Detektovan simbol Var y: 0, 0 - na liniji 12
+INFO  16:09:33,030 - Detektovan simbol Var z: 1, 0 - na liniji 12
+INFO  16:09:33,030 - Detektovan simbol Var d: 2, 0 - na liniji 12
+INFO  16:09:53,594 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:09:53,594 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:09:53,594 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:09:53,594 - Detektovan simbol Var z: 1, 0 - na liniji 12
+INFO  16:09:53,594 - Detektovan simbol Var d: 2, 0 - na liniji 12
+INFO  16:28:08,280 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:28:08,280 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:28:08,280 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:28:08,280 - Detektovan simbol Var z: 1, 0 - na liniji 12
+INFO  16:28:08,280 - Detektovan simbol Var d: 2, 0 - na liniji 12
+ERROR 16:28:08,280 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:28:47,556 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 16:28:47,556 - Semanticka greska: Varijabla f nije deklarisana - na liniji 12
+ERROR 16:28:47,556 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:29:01,633 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:29:01,633 - Detektovan simbol Var z: 1, 0 - na liniji 12
+ERROR 16:29:01,633 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:31:56,228 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:31:56,228 - Detektovan simbol Var z: 1, 0 - na liniji 12
+INFO  16:32:52,084 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:32:52,084 - Detektovan simbol Var k: 3, 0 - na liniji 12
+ERROR 16:32:52,084 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  16:33:11,957 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:33:11,957 - Detektovan simbol Var k: 3, 0 - na liniji 12
+INFO  16:33:25,565 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:33:25,565 - Detektovan simbol Var k: 3, 0 - na liniji 12
+ERROR 16:33:25,565 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:35:27,900 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:35:27,900 - Detektovan simbol Var k: 3, 0 - na liniji 12
+INFO  16:40:33,027 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:40:33,027 - Detektovan simbol Var k: 3, 0 - na liniji 12
+ERROR 16:40:33,027 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:41:06,063 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:41:06,063 - Detektovan simbol Var k: 3, 0 - na liniji 12
+ERROR 16:41:06,063 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  16:41:21,208 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:41:21,208 - Detektovan simbol Var k: 3, 0 - na liniji 12
+INFO  16:42:00,142 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+ERROR 16:42:00,142 - Semanticka greska: Varijabla k nije deklarisana - na liniji 12
+ERROR 16:42:00,142 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:42:24,979 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+INFO  16:42:24,979 - Detektovan simbol Var y: 0, 0 - na liniji 12
+INFO  16:42:39,873 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+INFO  16:42:39,873 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 16:42:39,873 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  16:42:59,883 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+INFO  16:42:59,883 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:44:04,245 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+INFO  16:44:04,245 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 16:44:04,245 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  16:44:33,901 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:44:33,901 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 16:44:33,901 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  16:44:54,952 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:44:54,952 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:46:31,218 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:46:31,218 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 16:46:31,218 - Semanticka greska: Nije dozvoljena dodela vrednosti konstanti - na liniji 12
+INFO  16:57:59,412 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+INFO  16:57:59,413 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:57:59,413 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 16:57:59,413 - Semanticka greska: Ocekivani operandi tipa int - na liniji 12
+ERROR 16:57:59,413 - Semanticka greska: Nije dozvoljena dodela vrednosti konstanti - na liniji 12
+INFO  16:58:28,502 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:58:28,503 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  16:58:28,503 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+INFO  17:00:11,716 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  17:00:11,717 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  17:00:11,717 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 17:00:11,717 - Semanticka greska: Ocekivani operandi tipa int - na liniji 12
+ERROR 17:00:11,717 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  17:04:58,007 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  17:05:19,384 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+ERROR 17:05:19,385 - Semanticka greska: Tip prilikom dekrementacije mora biti int - na liniji 12
+ERROR 17:05:33,433 - Sintaksna greska u liniji 12
+ERROR 17:05:33,434 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 12
+INFO  17:05:45,462 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+INFO  17:05:58,403 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+ERROR 17:05:58,404 - Semanticka greska: Tip prilikom dekrementacije mora biti int - na liniji 12
+INFO  17:06:22,218 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 17:06:22,219 - Semanticka greska: Ocekivana referenca na Array - na liniji 12
+ERROR 17:06:22,219 - Semanticka greska: Tip prilikom dekrementacije mora biti int - na liniji 12
+INFO  17:06:36,067 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 17:06:36,067 - Semanticka greska: Tip prilikom dekrementacije mora biti int - na liniji 12
+INFO  17:06:53,035 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+ERROR 17:06:53,036 - Semanticka greska: Nije dozvoljena dekrementacija konstanti - na liniji 12
+INFO  17:14:14,223 - Detektovan simbol Var x: 0, 1 - na liniji 12
+ERROR 17:14:14,223 - Semanticka greska: Ocekivana funkcija - na liniji 12
+INFO  17:14:28,477 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+INFO  17:19:50,769 - Detektovan simbol Var x: 0, 1 - na liniji 12
+INFO  17:20:01,415 - Detektovan simbol Con fff: 30, 0 - na liniji 12
+ERROR 17:20:01,415 - Semanticka greska: Nije dozvoljena dodela vrednosti konstanti - na liniji 12
+INFO  17:20:17,763 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+INFO  17:20:50,071 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+INFO  17:21:06,728 - Detektovan simbol Meth mm: 0, 0 - na liniji 12
+ERROR 17:21:06,728 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  17:21:35,102 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+ERROR 17:21:35,102 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 12
+INFO  17:21:50,015 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+INFO  17:22:00,842 - Detektovan simbol Var ddd: 3, 0 - na liniji 12
+ERROR 17:22:00,842 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 12
+INFO  17:24:02,220 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 17:24:02,220 - Semanticka greska: Tip prilikom inkrementacije mora biti int - na liniji 13
+INFO  17:24:21,401 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 17:24:21,401 - Semanticka greska: Nije dozvoljena dodela vrednosti - na liniji 13
+ERROR 17:24:44,430 - Sintaksna greska u liniji 13
+ERROR 17:24:44,430 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 13
+INFO  17:25:03,419 - Detektovan simbol Con fff: 30, 0 - na liniji 13
+ERROR 17:25:03,419 - Semanticka greska: Nije dozvoljena dodela vrednosti - na liniji 13
+INFO  17:26:08,262 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 17:26:08,262 - Semanticka greska: Nije dozvoljena dodela vrednosti - na liniji 13
+INFO  17:29:03,279 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  17:30:58,269 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 17:30:58,269 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 13
+INFO  17:31:35,352 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  17:31:35,352 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  17:31:50,455 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  17:31:50,471 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  17:34:59,048 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  17:34:59,048 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 17:34:59,048 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:49:28,416 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  21:49:28,433 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:49:28,433 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:49:55,549 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  21:49:55,549 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:49:55,549 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:50:21,074 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  21:50:21,075 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:50:21,075 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:51:53,054 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  21:51:53,054 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:51:53,055 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:52:29,752 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  21:52:29,752 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  21:52:48,096 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  21:52:48,096 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+ERROR 21:52:48,096 - Semanticka greska: Nije dozvoljena dodela vrednosti - na liniji 13
+INFO  21:53:17,374 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  21:53:17,375 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  21:53:17,375 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:53:17,375 - Semanticka greska: Ocekivani operandi tipa int - na liniji 13
+ERROR 21:53:17,375 - Semanticka greska: Tipovi nisu kompatibilni - na liniji 13
+INFO  21:54:18,290 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  21:54:18,291 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  21:54:18,291 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 21:54:18,291 - Semanticka greska: Ocekivani operandi tipa int - na liniji 13
+ERROR 21:54:18,291 - Semanticka greska: Tipovi nisu kompatibilni prilikom dodele vrednosti - na liniji 13
+ERROR 22:00:59,105 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:00:59,106 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:00:59,106 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:00:59,106 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:00:59,106 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:01:26,388 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:01:26,389 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:01:26,389 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:01:26,389 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+INFO  22:01:26,389 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:01:26,389 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:02:59,792 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:02:59,793 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:02:59,793 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:02:59,793 - Detektovan simbol Var ddd: 3, 0 - na liniji 13
+ERROR 22:02:59,793 - Semanticka greska: Broj elemenata niza mora biti tipa int - na liniji 13
+INFO  22:02:59,793 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:02:59,794 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:03:16,591 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:03:16,592 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:03:16,592 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:03:16,592 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 22:03:16,592 - Semanticka greska: Broj elemenata niza mora biti tipa int - na liniji 13
+INFO  22:03:16,593 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:03:16,593 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:04:15,662 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:04:15,663 - Detektovan simbol Var z: 1, 0 - na liniji 13
+ERROR 22:04:15,663 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:06:56,849 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:06:56,850 - Detektovan simbol Var z: 1, 0 - na liniji 13
+ERROR 22:06:56,850 - Semanticka greska: Tipovi nisu kompatibilni prilikom dodele vrednosti - na liniji 13
+ERROR 22:06:56,850 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:07:32,350 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:07:32,351 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:07:32,351 - Semanticka greska: Tip prilikom dodele vrednosti mora biti int ili bool ili char - na liniji 13
+ERROR 22:07:32,351 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:11:16,867 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:11:16,868 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:11:16,869 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:11:30,950 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:11:30,951 - Detektovan simbol Var z: 1, 0 - na liniji 13
+ERROR 22:11:30,951 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+ERROR 22:11:30,951 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:11:55,441 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:11:55,441 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:11:55,442 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:11:55,442 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:18:18,956 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:18:18,957 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:18:18,958 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:18:18,958 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:18:46,085 - Semanticka greska: Tip return izraza nije kompatibilan - na liniji 8
+ERROR 22:18:46,086 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:18:46,086 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:18:46,087 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:18:46,087 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:20:40,629 - Semanticka greska: Tip return izraza nije kompatibilan - na liniji 8
+ERROR 22:20:40,629 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:20:40,630 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:20:40,630 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:20:40,630 - Semanticka greska: Nije definisan return statement - na liniji 11
+ERROR 22:21:40,839 - Semanticka greska: Tip return izraza nije kompatibilan - na liniji 8
+ERROR 22:21:40,839 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:21:40,840 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:21:40,840 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:21:40,840 - Semanticka greska: Nije definisan return statement - na liniji 11
+INFO  22:24:06,650 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:24:06,650 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:24:06,650 - Semanticka greska: Nije definisan return statement - na liniji 11
+INFO  22:24:24,605 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:24:24,606 - Detektovan simbol Var d: 2, 0 - na liniji 13
+ERROR 22:24:41,056 - Semanticka greska: Tip return izraza nije kompatibilan - na liniji 8
+ERROR 22:24:41,057 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:24:41,057 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:24:41,057 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:25:13,942 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:25:13,943 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:25:13,943 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:25:39,250 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:28:07,743 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+ERROR 22:28:07,743 - Semanticka greska: Return izraz neocekivanog oblika - na liniji 8
+INFO  22:28:07,744 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:28:07,744 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:28:26,883 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:28:26,884 - Detektovan simbol Var d: 2, 0 - na liniji 13
+INFO  22:28:38,782 - Detektovan simbol Var z: 1, 0 - na liniji 13
+INFO  22:28:38,782 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 22:28:38,783 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+INFO  22:28:58,749 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:28:58,750 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 22:28:58,750 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+ERROR 22:29:11,161 - Semanticka greska: Nije definisan return statement - na liniji 7
+INFO  22:29:11,162 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:29:11,162 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  22:29:43,325 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:29:43,325 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:29:43,326 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:29:43,326 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:29:43,326 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:29:43,326 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:29:43,326 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+INFO  22:31:01,344 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:31:01,344 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:31:01,345 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:31:01,345 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:31:01,345 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:31:01,345 - Detektovan simbol Meth mm: 0, 0 - na liniji 13
+ERROR 22:31:01,345 - Semanticka greska: Nije dozvoljena dodela vrednosti - na liniji 13
+ERROR 22:31:14,546 - Sintaksna greska u liniji 13
+ERROR 22:31:14,547 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 13
+INFO  22:31:39,006 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:31:39,006 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:31:39,007 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:31:39,007 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:31:39,007 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:31:39,007 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:32:53,755 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:32:53,756 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:32:53,757 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:32:53,757 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:32:53,757 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:32:53,757 - Detektovan simbol Var y: 0, 0 - na liniji 13
+ERROR 22:32:53,757 - Semanticka greska: Nije definisana main metoda - na liniji 1
+INFO  22:33:36,746 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:33:36,747 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:33:36,747 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:33:36,747 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:33:36,747 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:33:36,747 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:57:41,000 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:57:41,001 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:57:41,001 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:57:41,001 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:57:41,001 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:57:41,002 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:59:04,962 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:59:04,962 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:59:04,963 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:59:04,963 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:59:04,963 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:59:04,963 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:59:04,966 - Broj globalnih varijabli u programu - datasize - na liniji 1
+INFO  22:59:30,083 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  22:59:30,084 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:59:30,084 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  22:59:30,084 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  22:59:30,084 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  22:59:30,084 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  22:59:30,087 - Broj globalnih varijabli u programu 7 - na liniji 1
+INFO  23:05:24,124 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:05:24,124 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:05:24,125 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:05:24,125 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:05:24,125 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:05:24,125 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:05:24,127 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:11:30,674 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:11:30,675 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:11:30,675 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:11:30,675 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:11:30,675 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:11:30,675 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:11:30,679 - PC main metode 0 - na liniji 11
+INFO  23:11:30,679 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:19:38,791 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:19:38,791 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:19:38,791 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:19:38,792 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:19:38,792 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:19:38,792 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:19:38,795 - Metoda mm ima 0 lokalnih varijabli - na liniji 7
+INFO  23:19:38,795 - PC main metode 2 - na liniji 11
+INFO  23:19:38,795 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  23:19:38,796 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:21:50,365 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:21:50,365 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:21:50,365 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:21:50,365 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:21:50,366 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:21:50,366 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:21:50,369 - Metoda mm ima 0 lokalnih varijabli - na liniji 7
+INFO  23:21:50,369 - PC main metode 2 - na liniji 11
+INFO  23:21:50,369 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  23:21:50,369 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:23:11,574 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:23:11,575 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:23:11,575 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:23:11,575 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:23:11,575 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:23:11,576 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:23:11,579 - Metoda mm ima 0 lokalnih varijabli - na liniji 7
+INFO  23:23:11,579 - PC main metode 2 - na liniji 11
+INFO  23:23:11,579 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  23:23:11,579 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:25:03,796 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:25:03,796 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:25:03,797 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:25:03,797 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:25:03,797 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:25:03,797 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:25:03,800 - Metoda mm ima 0 lokalnih varijabli - na liniji 7
+INFO  23:25:03,801 - PC main metode 2 - na liniji 11
+INFO  23:25:03,801 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  23:25:03,801 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:25:40,174 - Detektovan simbol Con fff: 30, 0 - na liniji 8
+INFO  23:25:40,174 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:25:40,174 - Detektovan simbol Var d: 2, 0 - na liniji 8
+INFO  23:25:40,175 - Detektovan simbol Var z: 1, 0 - na liniji 8
+INFO  23:25:40,175 - Detektovan simbol Var y: 0, 0 - na liniji 8
+INFO  23:25:40,175 - Detektovan simbol Var y: 0, 0 - na liniji 13
+INFO  23:25:40,178 - Metoda mm ima 0 lokalnih varijabli - na liniji 7
+INFO  23:25:40,178 - PC main metode 3 - na liniji 11
+INFO  23:25:40,178 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  23:25:40,178 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  23:34:25,636 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:34:25,640 - PC main metode 0 - na liniji 5
+INFO  23:34:25,640 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:34:25,640 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:34:52,616 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:34:52,620 - PC main metode 0 - na liniji 5
+INFO  23:34:52,620 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:34:52,620 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:39:14,017 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:39:14,021 - PC main metode 0 - na liniji 5
+INFO  23:39:14,021 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:39:14,021 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:41:47,737 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:41:47,738 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:41:47,741 - PC main metode 0 - na liniji 5
+INFO  23:41:47,741 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:41:47,741 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:43:05,162 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:43:05,163 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:43:05,170 - PC main metode 0 - na liniji 5
+INFO  23:43:05,171 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:47:35,003 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:47:35,004 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:47:35,010 - PC main metode 0 - na liniji 5
+INFO  23:47:35,011 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:56:32,090 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:56:32,091 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:56:32,093 - PC main metode 0 - na liniji 5
+INFO  23:56:32,094 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:56:32,094 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:56:44,811 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:56:44,812 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:56:44,816 - PC main metode 0 - na liniji 5
+INFO  23:56:44,816 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:56:44,816 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:57:16,334 - Detektovan simbol Var x: 0, 1 - na liniji 7
+ERROR 23:57:16,335 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 7
+INFO  23:57:55,309 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:57:55,310 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  23:57:55,314 - PC main metode 0 - na liniji 5
+INFO  23:57:55,314 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  23:57:55,314 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:58:28,277 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  23:58:28,278 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  23:58:28,278 - Detektovan simbol Con fff: 0, 0 - na liniji 9
+INFO  23:58:28,282 - PC main metode 0 - na liniji 7
+INFO  23:58:28,282 - Metoda main ima 1 lokalnih varijabli - na liniji 7
+INFO  23:58:28,282 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  23:58:41,211 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  23:58:41,212 - Detektovan simbol Var x: 0, 1 - na liniji 9
+ERROR 23:58:41,212 - Semanticka greska: Ocekivani operandi tipa int - na liniji 9
+INFO  23:58:41,212 - Detektovan simbol Con fff: 0, 0 - na liniji 9
+ERROR 23:58:41,212 - Semanticka greska: Ocekivani operandi tipa int - na liniji 9
+ERROR 23:58:41,213 - Semanticka greska: Ocekivani operandi tipa int - na liniji 9
+ERROR 23:58:41,213 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 9
+INFO  23:59:04,512 - Detektovan simbol Var x: 0, 1 - na liniji 10
+ERROR 23:59:04,512 - Semanticka greska: Varijabla m nije deklarisana - na liniji 10
+ERROR 23:59:04,513 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  23:59:04,513 - Detektovan simbol Con fff: 0, 0 - na liniji 10
+ERROR 23:59:04,513 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:04,513 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:04,513 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  23:59:17,010 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  23:59:17,010 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 23:59:17,011 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  23:59:17,011 - Detektovan simbol Con fff: 0, 0 - na liniji 10
+ERROR 23:59:17,011 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:17,011 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:17,011 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  23:59:33,460 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  23:59:33,461 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 23:59:33,461 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+INFO  23:59:33,461 - Detektovan simbol Con fff: 0, 0 - na liniji 10
+ERROR 23:59:33,461 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:33,461 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 23:59:33,461 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  23:59:49,116 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  23:59:49,117 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 23:59:49,117 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10

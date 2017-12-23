@@ -1,0 +1,1134 @@
+INFO  00:05:09,986 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:05:09,988 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 00:05:09,988 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:13:22,281 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:13:22,282 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 00:13:22,282 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:14:27,913 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:14:27,914 - Detektovan simbol Var m: 0, 0 - na liniji 10
+INFO  00:14:27,917 - PC main metode 0 - na liniji 8
+INFO  00:14:27,917 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  00:14:27,918 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:16:11,400 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:16:11,400 - Detektovan simbol Var m: 0, 0 - na liniji 10
+ERROR 00:16:11,401 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:17:31,023 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:17:31,024 - Detektovan simbol Var m: 0, 0 - na liniji 10
+INFO  00:17:31,064 - PC main metode 0 - na liniji 8
+INFO  00:17:31,064 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  00:17:31,064 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:18:27,088 - Detektovan simbol Var x: 0, 1 - na liniji 13
+INFO  00:18:27,089 - Detektovan simbol Meth f: 0, 0 - na liniji 13
+INFO  00:18:27,092 - Metoda f ima 0 lokalnih varijabli - na liniji 7
+INFO  00:18:27,092 - PC main metode 4 - na liniji 11
+INFO  00:18:27,092 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  00:18:27,092 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:42:39,172 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:42:39,173 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:42:39,176 - PC main metode 0 - na liniji 8
+INFO  00:42:39,176 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  00:42:39,176 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:43:07,914 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:43:07,915 - Detektovan simbol Var y: 1, 0 - na liniji 10
+INFO  00:43:07,918 - PC main metode 0 - na liniji 8
+INFO  00:43:07,918 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  00:43:07,918 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  00:43:16,703 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:43:16,704 - Detektovan simbol Var y: 1, 0 - na liniji 10
+ERROR 00:43:16,704 - Semanticka greska: Ocekivani operandi tipa int - na liniji 10
+ERROR 00:43:16,704 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:43:36,561 - Detektovan simbol Var y: 1, 0 - na liniji 10
+INFO  00:43:36,562 - Detektovan simbol Var x: 0, 1 - na liniji 10
+ERROR 00:43:36,562 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:43:45,804 - Detektovan simbol Var y: 1, 0 - na liniji 10
+INFO  00:43:45,804 - Detektovan simbol Var x: 0, 1 - na liniji 10
+INFO  00:43:45,808 - PC main metode 0 - na liniji 8
+INFO  00:43:45,808 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  00:43:45,809 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  00:43:57,114 - Detektovan simbol Var y: 1, 0 - na liniji 10
+INFO  00:43:57,114 - Detektovan simbol Var x: 0, 1 - na liniji 10
+ERROR 00:43:57,114 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 10
+INFO  00:44:25,266 - Detektovan simbol Var y: 1, 0 - na liniji 13
+INFO  00:44:25,267 - Detektovan simbol Var x: 0, 1 - na liniji 13
+ERROR 00:44:25,267 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+INFO  00:44:33,415 - Detektovan simbol Var y: 1, 0 - na liniji 13
+INFO  00:44:33,416 - Detektovan simbol Meth f: 0, 0 - na liniji 13
+ERROR 00:44:33,416 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+INFO  00:44:42,785 - Detektovan simbol Var y: 1, 0 - na liniji 13
+INFO  00:44:42,785 - Detektovan simbol Meth f: 0, 0 - na liniji 13
+INFO  00:44:42,788 - Metoda f ima 0 lokalnih varijabli - na liniji 7
+INFO  00:44:42,788 - PC main metode 4 - na liniji 11
+INFO  00:44:42,788 - Metoda main ima 1 lokalnih varijabli - na liniji 11
+INFO  00:44:42,788 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  00:46:18,847 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  00:46:18,848 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  00:46:18,851 - PC main metode 0 - na liniji 5
+INFO  00:46:18,851 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  00:46:18,851 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:46:44,379 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  00:46:44,380 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  00:46:44,384 - PC main metode 0 - na liniji 5
+INFO  00:46:44,384 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  00:46:44,384 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:47:03,999 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  00:47:04,000 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  00:47:04,003 - PC main metode 0 - na liniji 5
+INFO  00:47:04,003 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  00:47:04,003 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:47:35,453 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  00:47:35,454 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  00:47:35,457 - PC main metode 0 - na liniji 5
+INFO  00:47:35,457 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  00:47:35,458 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  00:53:47,769 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  00:53:47,769 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  00:53:47,776 - PC main metode 0 - na liniji 5
+INFO  00:53:47,776 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:01:58,348 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:01:58,348 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:01:58,351 - PC main metode 0 - na liniji 5
+INFO  01:01:58,351 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:01:58,351 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  01:02:41,616 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:02:41,617 - Detektovan simbol Var c: 0, 0 - na liniji 7
+ERROR 01:02:41,618 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 7
+INFO  01:03:01,953 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:03:01,957 - PC main metode 0 - na liniji 5
+INFO  01:03:01,957 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:03:01,958 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  01:04:36,839 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:04:36,840 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:04:36,843 - PC main metode 0 - na liniji 5
+INFO  01:04:36,843 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:04:36,844 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  01:09:03,590 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:09:03,591 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:09:03,594 - PC main metode 0 - na liniji 5
+INFO  01:09:03,594 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:09:03,594 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  01:30:59,180 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:30:59,181 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:30:59,185 - PC main metode 0 - na liniji 5
+INFO  01:30:59,185 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:30:59,185 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  01:33:42,119 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  01:33:42,120 - Detektovan simbol Var c: 0, 0 - na liniji 7
+INFO  01:33:42,123 - PC main metode 0 - na liniji 5
+INFO  01:33:42,123 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  01:33:42,123 - Broj globalnih varijabli u programu 1 - na liniji 1
+ERROR 01:35:13,443 - Sintaksna greska u liniji 3
+INFO  01:35:13,463 - Detektovan simbol Var x: 0, 1 - na liniji 11
+INFO  01:35:13,463 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:35:13,463 - Detektovan simbol Var m: 0, 0 - na liniji 11
+INFO  01:35:13,464 - Detektovan simbol Var z: 2, 0 - na liniji 11
+INFO  01:35:13,464 - Detektovan simbol Var y: 1, 0 - na liniji 11
+INFO  01:35:13,467 - PC main metode 0 - na liniji 9
+INFO  01:35:13,467 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:35:13,467 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:35:27,726 - Detektovan simbol Var x: 0, 1 - na liniji 11
+INFO  01:35:27,727 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:35:27,727 - Detektovan simbol Var m: 0, 0 - na liniji 11
+INFO  01:35:27,727 - Detektovan simbol Var z: 2, 0 - na liniji 11
+INFO  01:35:27,727 - Detektovan simbol Var y: 1, 0 - na liniji 11
+INFO  01:35:27,730 - PC main metode 0 - na liniji 9
+INFO  01:35:27,730 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:35:27,730 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:36:11,019 - Detektovan simbol Var x: 0, 1 - na liniji 11
+INFO  01:36:11,019 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:36:11,020 - Detektovan simbol Var m: 0, 0 - na liniji 11
+INFO  01:36:11,020 - Detektovan simbol Var z: 2, 0 - na liniji 11
+INFO  01:36:11,020 - Detektovan simbol Var y: 1, 0 - na liniji 11
+INFO  01:36:11,020 - Detektovan simbol Con ff: 17, 0 - na liniji 11
+INFO  01:36:11,040 - PC main metode 0 - na liniji 9
+INFO  01:36:11,040 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:36:11,040 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:37:39,807 - Detektovan simbol Var m: 0, 0 - na liniji 11
+ERROR 01:37:39,807 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 11
+INFO  01:37:53,185 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:37:53,190 - PC main metode 0 - na liniji 9
+INFO  01:37:53,190 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:37:53,190 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:38:12,943 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:38:12,947 - PC main metode 0 - na liniji 9
+INFO  01:38:12,947 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:38:12,947 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:43:46,730 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:43:46,734 - PC main metode 0 - na liniji 9
+INFO  01:43:46,734 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:43:46,734 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:44:08,790 - Detektovan simbol Var c: 3, 0 - na liniji 11
+INFO  01:44:08,793 - PC main metode 0 - na liniji 9
+INFO  01:44:08,794 - Metoda main ima 1 lokalnih varijabli - na liniji 9
+INFO  01:44:08,794 - Broj globalnih varijabli u programu 4 - na liniji 1
+INFO  01:44:22,881 - Detektovan simbol Var c: 3, 0 - na liniji 11
+ERROR 01:44:22,881 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 11
+INFO  01:45:31,800 - Detektovan simbol Var c: 4, 0 - na liniji 12
+ERROR 01:45:31,801 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 12
+INFO  01:45:31,801 - Detektovan simbol Var zzz: 3, 0 - na liniji 13
+INFO  01:45:31,801 - Detektovan simbol Var c: 4, 0 - na liniji 13
+ERROR 01:45:31,801 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 13
+INFO  01:45:52,963 - Detektovan simbol Var c: 4, 0 - na liniji 12
+INFO  01:45:52,964 - Detektovan simbol Var zzz: 3, 0 - na liniji 13
+INFO  01:45:52,964 - Detektovan simbol Var c: 4, 0 - na liniji 13
+INFO  01:45:52,968 - PC main metode 0 - na liniji 10
+INFO  01:45:52,968 - Metoda main ima 1 lokalnih varijabli - na liniji 10
+INFO  01:45:52,968 - Broj globalnih varijabli u programu 5 - na liniji 1
+INFO  01:46:29,230 - Detektovan simbol Var c: 4, 0 - na liniji 12
+INFO  01:46:29,231 - Detektovan simbol Var c: 4, 0 - na liniji 13
+INFO  01:46:29,231 - Detektovan simbol Var zzz: 3, 0 - na liniji 13
+INFO  01:46:29,234 - PC main metode 0 - na liniji 10
+INFO  01:46:29,235 - Metoda main ima 1 lokalnih varijabli - na liniji 10
+INFO  01:46:29,235 - Broj globalnih varijabli u programu 5 - na liniji 1
+INFO  01:53:46,577 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  01:53:46,578 - Detektovan simbol Meth foo: 0, 0 - na liniji 9
+INFO  01:53:46,581 - Metoda foo ima 0 lokalnih varijabli - na liniji 4
+INFO  01:53:46,581 - PC main metode 4 - na liniji 8
+INFO  01:53:46,581 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  01:53:46,581 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  01:57:47,416 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  01:57:47,417 - Detektovan simbol Meth foo: 0, 0 - na liniji 9
+INFO  01:57:47,419 - Metoda foo ima 0 lokalnih varijabli - na liniji 4
+INFO  01:57:47,419 - PC main metode 4 - na liniji 8
+INFO  01:57:47,420 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  01:57:47,420 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  01:59:25,491 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  01:59:25,492 - Detektovan simbol Meth foo: 0, 0 - na liniji 9
+INFO  01:59:25,498 - Metoda foo ima 0 lokalnih varijabli - na liniji 4
+INFO  01:59:25,499 - PC main metode 4 - na liniji 8
+INFO  01:59:25,499 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  02:00:11,265 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  02:00:11,266 - Detektovan simbol Meth foo: 0, 0 - na liniji 9
+INFO  02:00:11,269 - Metoda foo ima 0 lokalnih varijabli - na liniji 4
+INFO  02:00:11,269 - PC main metode 4 - na liniji 8
+INFO  02:00:11,269 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  02:00:11,269 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:05:34,856 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:05:34,859 - PC main metode 0 - na liniji 4
+INFO  02:05:34,860 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:05:34,860 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:05:49,666 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:05:49,669 - PC main metode 0 - na liniji 4
+INFO  02:05:49,669 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:05:49,670 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:06:18,172 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:06:18,175 - PC main metode 0 - na liniji 4
+INFO  02:06:18,175 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:06:18,175 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:06:39,742 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:06:39,746 - PC main metode 0 - na liniji 4
+INFO  02:06:39,746 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:06:39,746 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:09:26,594 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:09:26,598 - PC main metode 0 - na liniji 4
+INFO  02:09:26,598 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:09:26,598 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:10:41,377 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:10:41,382 - PC main metode 0 - na liniji 4
+INFO  02:10:41,382 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:10:41,382 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:11:30,968 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:11:30,971 - PC main metode 0 - na liniji 4
+INFO  02:11:30,972 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:11:30,972 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:13:39,412 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:13:39,416 - PC main metode 0 - na liniji 4
+INFO  02:13:39,416 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:13:39,416 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:14:19,234 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:14:19,238 - PC main metode 0 - na liniji 4
+INFO  02:14:19,238 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:14:19,238 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:27:13,689 - Detektovan simbol Var x: 0, 1 - na liniji 5
+ERROR 02:27:13,690 - Semanticka greska: Ocekivani operandi tipa int - na liniji 5
+ERROR 02:27:13,690 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 5
+INFO  02:29:29,084 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:29:29,088 - PC main metode 0 - na liniji 4
+INFO  02:29:29,088 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:29:29,088 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:29:56,022 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:29:56,025 - PC main metode 0 - na liniji 4
+INFO  02:29:56,025 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:29:56,025 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:35:34,275 - Detektovan simbol Var x: 0, 1 - na liniji 5
+INFO  02:35:34,279 - PC main metode 0 - na liniji 4
+INFO  02:35:34,279 - Metoda main ima 1 lokalnih varijabli - na liniji 4
+INFO  02:35:34,279 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:36:23,743 - Detektovan simbol Var f: 0, 0 - na liniji 6
+INFO  02:36:23,746 - PC main metode 0 - na liniji 5
+INFO  02:36:23,747 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:36:23,747 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  02:37:09,870 - Detektovan simbol Var f: 0, 0 - na liniji 6
+INFO  02:37:09,873 - PC main metode 0 - na liniji 5
+INFO  02:37:09,873 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:37:09,873 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  02:38:14,757 - Detektovan simbol Var f: 0, 0 - na liniji 6
+INFO  02:38:14,760 - PC main metode 0 - na liniji 5
+INFO  02:38:14,760 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:38:14,760 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  02:42:17,873 - Detektovan simbol Var x: 0, 1 - na liniji 6
+INFO  02:42:17,874 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  02:42:17,878 - PC main metode 0 - na liniji 5
+INFO  02:42:17,878 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:42:17,878 - Broj globalnih varijabli u programu 1 - na liniji 1
+INFO  02:42:53,606 - Detektovan simbol Var x: 0, 1 - na liniji 6
+INFO  02:42:53,606 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  02:42:53,607 - Detektovan simbol Var m: 1, 0 - na liniji 8
+INFO  02:42:53,610 - PC main metode 0 - na liniji 5
+INFO  02:42:53,611 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:42:53,611 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  02:47:08,570 - Detektovan simbol Var x: 0, 1 - na liniji 6
+INFO  02:47:08,571 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  02:47:08,571 - Detektovan simbol Var m: 1, 0 - na liniji 8
+INFO  02:47:08,574 - PC main metode 0 - na liniji 5
+INFO  02:47:08,574 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:47:08,574 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  02:47:45,717 - Detektovan simbol Var x: 0, 1 - na liniji 6
+INFO  02:47:45,717 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  02:47:45,717 - Detektovan simbol Var m: 1, 0 - na liniji 8
+INFO  02:47:45,720 - PC main metode 0 - na liniji 5
+INFO  02:47:45,721 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:47:45,721 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  02:48:10,621 - Detektovan simbol Var x: 0, 1 - na liniji 6
+INFO  02:48:10,622 - Detektovan simbol Var x: 0, 1 - na liniji 7
+INFO  02:48:10,622 - Detektovan simbol Var m: 1, 0 - na liniji 8
+INFO  02:48:10,625 - PC main metode 0 - na liniji 5
+INFO  02:48:10,626 - Metoda main ima 1 lokalnih varijabli - na liniji 5
+INFO  02:48:10,626 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  02:54:33,169 - Detektovan simbol Meth f: 0, 0 - na liniji 9
+INFO  02:54:33,173 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  02:54:33,173 - PC main metode 4 - na liniji 8
+INFO  02:54:33,173 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  02:54:33,173 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:55:11,319 - Detektovan simbol Meth f: 0, 0 - na liniji 9
+INFO  02:55:11,324 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  02:55:11,324 - PC main metode 3 - na liniji 8
+INFO  02:55:11,324 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  02:55:11,324 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  02:59:52,954 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  02:59:52,958 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  02:59:52,958 - PC main metode 3 - na liniji 8
+INFO  02:59:52,958 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  02:59:52,958 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:00:25,676 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:00:25,680 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:00:25,680 - PC main metode 3 - na liniji 8
+INFO  03:00:25,680 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:00:25,681 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:04:11,704 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:04:11,708 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:04:11,708 - PC main metode 3 - na liniji 8
+INFO  03:04:11,708 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:04:11,708 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:04:53,662 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:04:53,667 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:04:53,667 - PC main metode 3 - na liniji 8
+INFO  03:04:53,667 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:04:53,667 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:05:30,498 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:05:30,503 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:05:30,504 - PC main metode 3 - na liniji 8
+INFO  03:05:30,504 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:05:30,504 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:05:46,820 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:05:46,824 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:05:46,824 - PC main metode 3 - na liniji 8
+INFO  03:05:46,824 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:05:46,824 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:18:51,251 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:18:51,256 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:18:51,256 - PC main metode 3 - na liniji 8
+INFO  03:18:51,256 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:18:51,257 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:19:19,941 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:19:19,945 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:19:19,945 - PC main metode 3 - na liniji 8
+INFO  03:19:19,945 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:19:19,945 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:20:55,957 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:20:55,961 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:20:55,961 - PC main metode 3 - na liniji 8
+INFO  03:20:55,962 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:20:55,963 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:21:39,126 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:21:39,130 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:21:39,130 - PC main metode 3 - na liniji 8
+INFO  03:21:39,130 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:21:39,131 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:28:02,449 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:28:02,453 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:28:02,453 - PC main metode 5 - na liniji 8
+INFO  03:28:02,453 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:28:02,454 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:28:28,503 - Detektovan simbol Var x: 0, 1 - na liniji 9
+INFO  03:28:28,507 - Metoda f ima 0 lokalnih varijabli - na liniji 4
+INFO  03:28:28,508 - PC main metode 8 - na liniji 8
+INFO  03:28:28,508 - Metoda main ima 1 lokalnih varijabli - na liniji 8
+INFO  03:28:28,508 - Broj globalnih varijabli u programu 0 - na liniji 1
+INFO  03:30:06,495 - Detektovan simbol Var x: 0, 0 - na liniji 5
+INFO  03:30:06,496 - Detektovan simbol Var x: 0, 0 - na liniji 6
+INFO  03:30:06,499 - PC main metode 0 - na liniji 4
+INFO  03:30:06,499 - Metoda main ima 0 lokalnih varijabli - na liniji 4
+INFO  03:30:06,499 - Broj globalnih varijabli u programu 1 - na liniji 1
+ERROR 03:35:38,763 - Semanticka greska: Nije definisan return statement - na liniji 9
+ERROR 03:36:06,305 - Semanticka greska: Nije definisan return statement - na liniji 9
+ERROR 03:36:43,024 - Semanticka greska: Nije definisan return statement - na liniji 9
+ERROR 03:36:55,940 - Semanticka greska: Nije definisan return statement - na liniji 9
+ERROR 04:08:17,477 - Sintaksna greska u liniji 11
+ERROR 04:08:17,543 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 11
+ERROR 04:19:31,511 - Sintaksna greska u liniji 12
+ERROR 04:19:31,525 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 13
+ERROR 04:22:57,328 - Sintaksna greska u liniji 13
+ERROR 04:23:41,117 - Sintaksna greska u liniji 13
+ERROR 04:24:08,529 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 13
+ERROR 04:30:56,856 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 13
+ERROR 12:03:35,245 - Semanticka greska: Ocekivani operandi tipa int - na liniji 14
+ERROR 12:03:35,293 - Semanticka greska: Ocekivani operandi tipa int - na liniji 14
+ERROR 12:03:35,293 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 14
+ERROR 12:03:35,293 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 16
+ERROR 12:04:27,567 - Semanticka greska: Ocekivani operandi tipa int - na liniji 16
+ERROR 12:04:27,568 - Semanticka greska: Tipovi prilikom dodele nisu kompatibilni - na liniji 16
+ERROR 12:04:27,568 - Semanticka greska: Tip prilikom ispisa mora biti int ili char ili bool - na liniji 18
+ERROR 15:00:01,657 - Input file not specified
+ERROR 15:00:33,869 - Output file not specified
+INFO  15:09:57,651 - rs.ac.bg.etf.pp1.ast.Program@7106e68e
+INFO  15:10:24,410 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  Declarations(
+    Declarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclarationPart(
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleVar(
+            NonArrayVar(
+             x
+            ) [NonArrayVar]
+          ) [SingleVar]
+        ) [VarDeclaration]
+      ) [VarDeclarationPart]
+    ) [Declarations]
+    VarDeclarationPart(
+      VarDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleVar(
+          ArrayVar(
+           y
+          ) [ArrayVar]
+        ) [SingleVar]
+      ) [VarDeclaration]
+    ) [VarDeclarationPart]
+  ) [Declarations]
+  MethodList(
+    MethodList(
+      EmptyMethodList(
+      ) [EmptyMethodList]
+      MethodDeclaration(
+        NonVoidRetType(
+          Type(
+           int
+          ) [Type]
+        ) [NonVoidRetType]
+        MethodName(
+         k
+        ) [MethodName]
+        EmptyFormParsList(
+        ) [EmptyFormParsList]
+        VarDeclList(
+          VarDeclList(
+            EmptyVarDeclList(
+            ) [EmptyVarDeclList]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              SingleVar(
+                NonArrayVar(
+                 c
+                ) [NonArrayVar]
+              ) [SingleVar]
+            ) [VarDeclaration]
+          ) [VarDeclList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              NonArrayVar(
+               y
+              ) [NonArrayVar]
+            ) [SingleVar]
+          ) [VarDeclaration]
+        ) [VarDeclList]
+        StatementList(
+          StatementList(
+            StatementList(
+              EmptyStatementList(
+              ) [EmptyStatementList]
+              ExpressionStatement(
+                AsignDesignatorStatement(
+                  Designator(
+                    Designator_name(
+                     c
+                    ) [Designator_name]
+                    EmptyDesignatorList(
+                    ) [EmptyDesignatorList]
+                  ) [Designator]
+                  Expresion(
+                    SingleTermList(
+                      Term(
+                        SingleElementFactorList(
+                          NumericConstFactor(
+                           10
+                          ) [NumericConstFactor]
+                        ) [SingleElementFactorList]
+                      ) [Term]
+                    ) [SingleTermList]
+                  ) [Expresion]
+                ) [AsignDesignatorStatement]
+              ) [ExpressionStatement]
+            ) [StatementList]
+            ReadStatement(
+              Designator(
+                Designator_name(
+                 y
+                ) [Designator_name]
+                EmptyDesignatorList(
+                ) [EmptyDesignatorList]
+              ) [Designator]
+            ) [ReadStatement]
+          ) [StatementList]
+          ReturnStatement(
+            ReturnExpresion(
+              Expresion(
+                SingleTermList(
+                  Term(
+                    ComplexFactorList(
+                      SingleElementFactorList(
+                        VariableFactor(
+                          Designator(
+                            Designator_name(
+                             c
+                            ) [Designator_name]
+                            EmptyDesignatorList(
+                            ) [EmptyDesignatorList]
+                          ) [Designator]
+                        ) [VariableFactor]
+                      ) [SingleElementFactorList]
+                      StarMulop(
+                      ) [StarMulop]
+                      ComplexFactor(
+                        Expresion(
+                          SingleTermList(
+                            Term(
+                              NegativeFactor(
+                                VariableFactor(
+                                  Designator(
+                                    Designator_name(
+                                     y
+                                    ) [Designator_name]
+                                    EmptyDesignatorList(
+                                    ) [EmptyDesignatorList]
+                                  ) [Designator]
+                                ) [VariableFactor]
+                              ) [NegativeFactor]
+                            ) [Term]
+                          ) [SingleTermList]
+                        ) [Expresion]
+                      ) [ComplexFactor]
+                    ) [ComplexFactorList]
+                  ) [Term]
+                ) [SingleTermList]
+              ) [Expresion]
+            ) [ReturnExpresion]
+          ) [ReturnStatement]
+        ) [StatementList]
+      ) [MethodDeclaration]
+    ) [MethodList]
+    MethodDeclaration(
+      VoidRetType(
+      ) [VoidRetType]
+      MethodName(
+       main
+      ) [MethodName]
+      EmptyFormParsList(
+      ) [EmptyFormParsList]
+      VarDeclList(
+        VarDeclList(
+          EmptyVarDeclList(
+          ) [EmptyVarDeclList]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleVar(
+              ArrayVar(
+               f
+              ) [ArrayVar]
+            ) [SingleVar]
+          ) [VarDeclaration]
+        ) [VarDeclList]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          SingleVar(
+            NonArrayVar(
+             c
+            ) [NonArrayVar]
+          ) [SingleVar]
+        ) [VarDeclaration]
+      ) [VarDeclList]
+      StatementList(
+        StatementList(
+          StatementList(
+            StatementList(
+              StatementList(
+                StatementList(
+                  StatementList(
+                    StatementList(
+                      StatementList(
+                        StatementList(
+                          StatementList(
+                            StatementList(
+                              StatementList(
+                                StatementList(
+                                  StatementList(
+                                    StatementList(
+                                      EmptyStatementList(
+                                      ) [EmptyStatementList]
+                                      ExpressionStatement(
+                                        AsignDesignatorStatement(
+                                          Designator(
+                                            Designator_name(
+                                             x
+                                            ) [Designator_name]
+                                            EmptyDesignatorList(
+                                            ) [EmptyDesignatorList]
+                                          ) [Designator]
+                                          Expresion(
+                                            SingleTermList(
+                                              Term(
+                                                SingleElementFactorList(
+                                                  NumericConstFactor(
+                                                   1
+                                                  ) [NumericConstFactor]
+                                                ) [SingleElementFactorList]
+                                              ) [Term]
+                                            ) [SingleTermList]
+                                          ) [Expresion]
+                                        ) [AsignDesignatorStatement]
+                                      ) [ExpressionStatement]
+                                    ) [StatementList]
+                                    ExpressionStatement(
+                                      IncDesignatorStatement(
+                                        Designator(
+                                          Designator_name(
+                                           x
+                                          ) [Designator_name]
+                                          EmptyDesignatorList(
+                                          ) [EmptyDesignatorList]
+                                        ) [Designator]
+                                      ) [IncDesignatorStatement]
+                                    ) [ExpressionStatement]
+                                  ) [StatementList]
+                                  PrintStatement(
+                                    Expresion(
+                                      SingleTermList(
+                                        Term(
+                                          SingleElementFactorList(
+                                            VariableFactor(
+                                              Designator(
+                                                Designator_name(
+                                                 x
+                                                ) [Designator_name]
+                                                EmptyDesignatorList(
+                                                ) [EmptyDesignatorList]
+                                              ) [Designator]
+                                            ) [VariableFactor]
+                                          ) [SingleElementFactorList]
+                                        ) [Term]
+                                      ) [SingleTermList]
+                                    ) [Expresion]
+                                    EmptyPrintNumConst(
+                                    ) [EmptyPrintNumConst]
+                                  ) [PrintStatement]
+                                ) [StatementList]
+                                PrintStatement(
+                                  Expresion(
+                                    SingleTermList(
+                                      Term(
+                                        SingleElementFactorList(
+                                          VariableFactor(
+                                            Designator(
+                                              Designator_name(
+                                               eol
+                                              ) [Designator_name]
+                                              EmptyDesignatorList(
+                                              ) [EmptyDesignatorList]
+                                            ) [Designator]
+                                          ) [VariableFactor]
+                                        ) [SingleElementFactorList]
+                                      ) [Term]
+                                    ) [SingleTermList]
+                                  ) [Expresion]
+                                  EmptyPrintNumConst(
+                                  ) [EmptyPrintNumConst]
+                                ) [PrintStatement]
+                              ) [StatementList]
+                              ExpressionStatement(
+                                DecDesignatorStatement(
+                                  Designator(
+                                    Designator_name(
+                                     x
+                                    ) [Designator_name]
+                                    EmptyDesignatorList(
+                                    ) [EmptyDesignatorList]
+                                  ) [Designator]
+                                ) [DecDesignatorStatement]
+                              ) [ExpressionStatement]
+                            ) [StatementList]
+                            PrintStatement(
+                              Expresion(
+                                SingleTermList(
+                                  Term(
+                                    SingleElementFactorList(
+                                      VariableFactor(
+                                        Designator(
+                                          Designator_name(
+                                           x
+                                          ) [Designator_name]
+                                          EmptyDesignatorList(
+                                          ) [EmptyDesignatorList]
+                                        ) [Designator]
+                                      ) [VariableFactor]
+                                    ) [SingleElementFactorList]
+                                  ) [Term]
+                                ) [SingleTermList]
+                              ) [Expresion]
+                              EmptyPrintNumConst(
+                              ) [EmptyPrintNumConst]
+                            ) [PrintStatement]
+                          ) [StatementList]
+                          PrintStatement(
+                            Expresion(
+                              SingleTermList(
+                                Term(
+                                  SingleElementFactorList(
+                                    VariableFactor(
+                                      Designator(
+                                        Designator_name(
+                                         eol
+                                        ) [Designator_name]
+                                        EmptyDesignatorList(
+                                        ) [EmptyDesignatorList]
+                                      ) [Designator]
+                                    ) [VariableFactor]
+                                  ) [SingleElementFactorList]
+                                ) [Term]
+                              ) [SingleTermList]
+                            ) [Expresion]
+                            EmptyPrintNumConst(
+                            ) [EmptyPrintNumConst]
+                          ) [PrintStatement]
+                        ) [StatementList]
+                        ExpressionStatement(
+                          AsignDesignatorStatement(
+                            Designator(
+                              Designator_name(
+                               f
+                              ) [Designator_name]
+                              EmptyDesignatorList(
+                              ) [EmptyDesignatorList]
+                            ) [Designator]
+                            Expresion(
+                              SingleTermList(
+                                Term(
+                                  SingleElementFactorList(
+                                    NewArrayFactor(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expresion(
+                                        SingleTermList(
+                                          Term(
+                                            SingleElementFactorList(
+                                              NumericConstFactor(
+                                               1
+                                              ) [NumericConstFactor]
+                                            ) [SingleElementFactorList]
+                                          ) [Term]
+                                        ) [SingleTermList]
+                                      ) [Expresion]
+                                    ) [NewArrayFactor]
+                                  ) [SingleElementFactorList]
+                                ) [Term]
+                              ) [SingleTermList]
+                            ) [Expresion]
+                          ) [AsignDesignatorStatement]
+                        ) [ExpressionStatement]
+                      ) [StatementList]
+                      ExpressionStatement(
+                        AsignDesignatorStatement(
+                          Designator(
+                            Designator_name(
+                             f
+                            ) [Designator_name]
+                            ArrayElementDesignatorList(
+                              Expresion(
+                                SingleTermList(
+                                  Term(
+                                    SingleElementFactorList(
+                                      NumericConstFactor(
+                                       0
+                                      ) [NumericConstFactor]
+                                    ) [SingleElementFactorList]
+                                  ) [Term]
+                                ) [SingleTermList]
+                              ) [Expresion]
+                              EmptyDesignatorList(
+                              ) [EmptyDesignatorList]
+                            ) [ArrayElementDesignatorList]
+                          ) [Designator]
+                          Expresion(
+                            SingleTermList(
+                              Term(
+                                SingleElementFactorList(
+                                  NumericConstFactor(
+                                   5
+                                  ) [NumericConstFactor]
+                                ) [SingleElementFactorList]
+                              ) [Term]
+                            ) [SingleTermList]
+                          ) [Expresion]
+                        ) [AsignDesignatorStatement]
+                      ) [ExpressionStatement]
+                    ) [StatementList]
+                    PrintStatement(
+                      Expresion(
+                        SingleTermList(
+                          Term(
+                            SingleElementFactorList(
+                              VariableFactor(
+                                Designator(
+                                  Designator_name(
+                                   f
+                                  ) [Designator_name]
+                                  ArrayElementDesignatorList(
+                                    Expresion(
+                                      SingleTermList(
+                                        Term(
+                                          SingleElementFactorList(
+                                            NumericConstFactor(
+                                             0
+                                            ) [NumericConstFactor]
+                                          ) [SingleElementFactorList]
+                                        ) [Term]
+                                      ) [SingleTermList]
+                                    ) [Expresion]
+                                    EmptyDesignatorList(
+                                    ) [EmptyDesignatorList]
+                                  ) [ArrayElementDesignatorList]
+                                ) [Designator]
+                              ) [VariableFactor]
+                            ) [SingleElementFactorList]
+                          ) [Term]
+                        ) [SingleTermList]
+                      ) [Expresion]
+                      EmptyPrintNumConst(
+                      ) [EmptyPrintNumConst]
+                    ) [PrintStatement]
+                  ) [StatementList]
+                  PrintStatement(
+                    Expresion(
+                      SingleTermList(
+                        Term(
+                          SingleElementFactorList(
+                            VariableFactor(
+                              Designator(
+                                Designator_name(
+                                 eol
+                                ) [Designator_name]
+                                EmptyDesignatorList(
+                                ) [EmptyDesignatorList]
+                              ) [Designator]
+                            ) [VariableFactor]
+                          ) [SingleElementFactorList]
+                        ) [Term]
+                      ) [SingleTermList]
+                    ) [Expresion]
+                    EmptyPrintNumConst(
+                    ) [EmptyPrintNumConst]
+                  ) [PrintStatement]
+                ) [StatementList]
+                ExpressionStatement(
+                  IncDesignatorStatement(
+                    Designator(
+                      Designator_name(
+                       f
+                      ) [Designator_name]
+                      ArrayElementDesignatorList(
+                        Expresion(
+                          SingleTermList(
+                            Term(
+                              SingleElementFactorList(
+                                NumericConstFactor(
+                                 0
+                                ) [NumericConstFactor]
+                              ) [SingleElementFactorList]
+                            ) [Term]
+                          ) [SingleTermList]
+                        ) [Expresion]
+                        EmptyDesignatorList(
+                        ) [EmptyDesignatorList]
+                      ) [ArrayElementDesignatorList]
+                    ) [Designator]
+                  ) [IncDesignatorStatement]
+                ) [ExpressionStatement]
+              ) [StatementList]
+              PrintStatement(
+                Expresion(
+                  SingleTermList(
+                    Term(
+                      SingleElementFactorList(
+                        VariableFactor(
+                          Designator(
+                            Designator_name(
+                             f
+                            ) [Designator_name]
+                            ArrayElementDesignatorList(
+                              Expresion(
+                                SingleTermList(
+                                  Term(
+                                    SingleElementFactorList(
+                                      NumericConstFactor(
+                                       0
+                                      ) [NumericConstFactor]
+                                    ) [SingleElementFactorList]
+                                  ) [Term]
+                                ) [SingleTermList]
+                              ) [Expresion]
+                              EmptyDesignatorList(
+                              ) [EmptyDesignatorList]
+                            ) [ArrayElementDesignatorList]
+                          ) [Designator]
+                        ) [VariableFactor]
+                      ) [SingleElementFactorList]
+                    ) [Term]
+                  ) [SingleTermList]
+                ) [Expresion]
+                EmptyPrintNumConst(
+                ) [EmptyPrintNumConst]
+              ) [PrintStatement]
+            ) [StatementList]
+            PrintStatement(
+              Expresion(
+                SingleTermList(
+                  Term(
+                    SingleElementFactorList(
+                      VariableFactor(
+                        Designator(
+                          Designator_name(
+                           eol
+                          ) [Designator_name]
+                          EmptyDesignatorList(
+                          ) [EmptyDesignatorList]
+                        ) [Designator]
+                      ) [VariableFactor]
+                    ) [SingleElementFactorList]
+                  ) [Term]
+                ) [SingleTermList]
+              ) [Expresion]
+              EmptyPrintNumConst(
+              ) [EmptyPrintNumConst]
+            ) [PrintStatement]
+          ) [StatementList]
+          ExpressionStatement(
+            DecDesignatorStatement(
+              Designator(
+                Designator_name(
+                 f
+                ) [Designator_name]
+                ArrayElementDesignatorList(
+                  Expresion(
+                    SingleTermList(
+                      Term(
+                        SingleElementFactorList(
+                          NumericConstFactor(
+                           0
+                          ) [NumericConstFactor]
+                        ) [SingleElementFactorList]
+                      ) [Term]
+                    ) [SingleTermList]
+                  ) [Expresion]
+                  EmptyDesignatorList(
+                  ) [EmptyDesignatorList]
+                ) [ArrayElementDesignatorList]
+              ) [Designator]
+            ) [DecDesignatorStatement]
+          ) [ExpressionStatement]
+        ) [StatementList]
+        PrintStatement(
+          Expresion(
+            SingleTermList(
+              Term(
+                SingleElementFactorList(
+                  VariableFactor(
+                    Designator(
+                      Designator_name(
+                       f
+                      ) [Designator_name]
+                      ArrayElementDesignatorList(
+                        Expresion(
+                          SingleTermList(
+                            Term(
+                              SingleElementFactorList(
+                                NumericConstFactor(
+                                 0
+                                ) [NumericConstFactor]
+                              ) [SingleElementFactorList]
+                            ) [Term]
+                          ) [SingleTermList]
+                        ) [Expresion]
+                        EmptyDesignatorList(
+                        ) [EmptyDesignatorList]
+                      ) [ArrayElementDesignatorList]
+                    ) [Designator]
+                  ) [VariableFactor]
+                ) [SingleElementFactorList]
+              ) [Term]
+            ) [SingleTermList]
+          ) [Expresion]
+          EmptyPrintNumConst(
+          ) [EmptyPrintNumConst]
+        ) [PrintStatement]
+      ) [StatementList]
+    ) [MethodDeclaration]
+  ) [MethodList]
+) [Program]
+INFO  15:21:00,776 - Detektovan simbol Var c: 0, 1 - na liniji 5
+INFO  15:21:00,777 - Detektovan simbol Var y: 1, 1 - na liniji 6
+INFO  15:21:00,777 - Detektovan simbol Var c: 0, 1 - na liniji 7
+INFO  15:21:00,777 - Detektovan simbol Var y: 1, 1 - na liniji 7
+INFO  15:21:00,778 - Detektovan simbol Var x: 0, 0 - na liniji 12
+INFO  15:21:00,778 - Detektovan simbol Var x: 0, 0 - na liniji 13
+INFO  15:21:00,778 - Detektovan simbol Var x: 0, 0 - na liniji 14
+INFO  15:21:00,778 - Detektovan simbol Con eol: 10, 0 - na liniji 15
+INFO  15:21:00,778 - Detektovan simbol Var x: 0, 0 - na liniji 16
+INFO  15:21:00,778 - Detektovan simbol Var x: 0, 0 - na liniji 17
+INFO  15:21:00,778 - Detektovan simbol Con eol: 10, 0 - na liniji 18
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 19
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 20
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 21
+INFO  15:21:00,779 - Detektovan simbol Con eol: 10, 0 - na liniji 22
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 23
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 24
+INFO  15:21:00,779 - Detektovan simbol Con eol: 10, 0 - na liniji 25
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 26
+INFO  15:21:00,779 - Detektovan simbol Var f: 0, 1 - na liniji 27
+INFO  15:21:00,781 - Metoda k ima 2 lokalnih varijabli - na liniji 4
+INFO  15:21:00,781 - PC main metode 19 - na liniji 10
+INFO  15:21:00,781 - Metoda main ima 2 lokalnih varijabli - na liniji 10
+INFO  15:21:00,781 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  15:22:59,429 - Detektovan simbol Var c: 0, 1 - na liniji 5
+INFO  15:22:59,429 - Detektovan simbol Var y: 1, 1 - na liniji 6
+INFO  15:22:59,429 - Detektovan simbol Var c: 0, 1 - na liniji 7
+INFO  15:22:59,429 - Detektovan simbol Var y: 1, 1 - na liniji 7
+INFO  15:22:59,429 - Detektovan simbol Var x: 0, 0 - na liniji 12
+INFO  15:22:59,429 - Detektovan simbol Var x: 0, 0 - na liniji 13
+INFO  15:22:59,429 - Detektovan simbol Var x: 0, 0 - na liniji 14
+INFO  15:22:59,429 - Detektovan simbol Con eol: 10, 0 - na liniji 15
+INFO  15:22:59,429 - Detektovan simbol Var x: 0, 0 - na liniji 16
+INFO  15:22:59,429 - Detektovan simbol Var x: 0, 0 - na liniji 17
+INFO  15:22:59,429 - Detektovan simbol Con eol: 10, 0 - na liniji 18
+INFO  15:22:59,429 - Detektovan simbol Var f: 0, 1 - na liniji 19
+INFO  15:22:59,429 - Detektovan simbol Var f: 0, 1 - na liniji 20
+INFO  15:22:59,429 - Detektovan simbol Var f: 0, 1 - na liniji 21
+INFO  15:22:59,429 - Detektovan simbol Con eol: 10, 0 - na liniji 22
+INFO  15:22:59,444 - Detektovan simbol Var f: 0, 1 - na liniji 23
+INFO  15:22:59,444 - Detektovan simbol Var f: 0, 1 - na liniji 24
+INFO  15:22:59,444 - Detektovan simbol Con eol: 10, 0 - na liniji 25
+INFO  15:22:59,444 - Detektovan simbol Var f: 0, 1 - na liniji 26
+INFO  15:22:59,444 - Detektovan simbol Var f: 0, 1 - na liniji 27
+INFO  15:22:59,444 - Metoda k ima 2 lokalnih varijabli - na liniji 4
+INFO  15:22:59,444 - PC main metode 19 - na liniji 10
+INFO  15:22:59,444 - Metoda main ima 2 lokalnih varijabli - na liniji 10
+INFO  15:22:59,444 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  15:23:32,534 - Detektovan simbol Var c: 0, 1 - na liniji 5
+INFO  15:23:32,534 - Detektovan simbol Var y: 1, 1 - na liniji 6
+INFO  15:23:32,534 - Detektovan simbol Var c: 0, 1 - na liniji 7
+INFO  15:23:32,534 - Detektovan simbol Var y: 1, 1 - na liniji 7
+INFO  15:23:32,534 - Detektovan simbol Var x: 0, 0 - na liniji 12
+INFO  15:23:32,534 - Detektovan simbol Var x: 0, 0 - na liniji 13
+INFO  15:23:32,534 - Detektovan simbol Var x: 0, 0 - na liniji 14
+INFO  15:23:32,534 - Detektovan simbol Con eol: 10, 0 - na liniji 15
+INFO  15:23:32,534 - Detektovan simbol Var x: 0, 0 - na liniji 16
+INFO  15:23:32,534 - Detektovan simbol Var x: 0, 0 - na liniji 17
+INFO  15:23:32,534 - Detektovan simbol Con eol: 10, 0 - na liniji 18
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 19
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 20
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 21
+INFO  15:23:32,534 - Detektovan simbol Con eol: 10, 0 - na liniji 22
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 23
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 24
+INFO  15:23:32,534 - Detektovan simbol Con eol: 10, 0 - na liniji 25
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 26
+INFO  15:23:32,534 - Detektovan simbol Var f: 0, 1 - na liniji 27
+INFO  15:23:32,549 - Metoda k ima 2 lokalnih varijabli - na liniji 4
+INFO  15:23:32,549 - PC main metode 19 - na liniji 10
+INFO  15:23:32,549 - Metoda main ima 2 lokalnih varijabli - na liniji 10
+INFO  15:23:32,549 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  15:33:12,652 - Detektovan simbol Var c: 0, 1 - na liniji 5
+INFO  15:33:12,652 - Detektovan simbol Var y: 1, 1 - na liniji 6
+INFO  15:33:12,652 - Detektovan simbol Var c: 0, 1 - na liniji 7
+INFO  15:33:12,652 - Detektovan simbol Var y: 1, 1 - na liniji 7
+INFO  15:33:12,652 - Detektovan simbol Var x: 0, 0 - na liniji 12
+INFO  15:33:12,652 - Detektovan simbol Var x: 0, 0 - na liniji 13
+INFO  15:33:12,652 - Detektovan simbol Var x: 0, 0 - na liniji 14
+INFO  15:33:12,652 - Detektovan simbol Con eol: 10, 0 - na liniji 15
+INFO  15:33:12,652 - Detektovan simbol Var x: 0, 0 - na liniji 16
+INFO  15:33:12,652 - Detektovan simbol Var x: 0, 0 - na liniji 17
+INFO  15:33:12,652 - Detektovan simbol Con eol: 10, 0 - na liniji 18
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 19
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 20
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 21
+INFO  15:33:12,652 - Detektovan simbol Con eol: 10, 0 - na liniji 22
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 23
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 24
+INFO  15:33:12,652 - Detektovan simbol Con eol: 10, 0 - na liniji 25
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 26
+INFO  15:33:12,652 - Detektovan simbol Var f: 0, 1 - na liniji 27
+INFO  15:33:12,652 - Metoda k ima 2 lokalnih varijabli - na liniji 4
+INFO  15:33:12,652 - PC main metode 19 - na liniji 10
+INFO  15:33:12,652 - Metoda main ima 2 lokalnih varijabli - na liniji 10
+INFO  15:33:12,652 - Broj globalnih varijabli u programu 2 - na liniji 1
+INFO  15:34:36,869 - Detektovan simbol Var c: 0, 1 - na liniji 5
+INFO  15:34:36,869 - Detektovan simbol Var y: 1, 1 - na liniji 6
+INFO  15:34:36,869 - Detektovan simbol Var c: 0, 1 - na liniji 7
+INFO  15:34:36,869 - Detektovan simbol Var y: 1, 1 - na liniji 7
+INFO  15:34:36,869 - Detektovan simbol Var x: 0, 0 - na liniji 12
+INFO  15:34:36,869 - Detektovan simbol Var x: 0, 0 - na liniji 13
+INFO  15:34:36,869 - Detektovan simbol Var x: 0, 0 - na liniji 14
+INFO  15:34:36,869 - Detektovan simbol Con eol: 10, 0 - na liniji 15
+INFO  15:34:36,869 - Detektovan simbol Var x: 0, 0 - na liniji 16
+INFO  15:34:36,869 - Detektovan simbol Var x: 0, 0 - na liniji 17
+INFO  15:34:36,869 - Detektovan simbol Con eol: 10, 0 - na liniji 18
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 19
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 20
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 21
+INFO  15:34:36,869 - Detektovan simbol Con eol: 10, 0 - na liniji 22
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 23
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 24
+INFO  15:34:36,869 - Detektovan simbol Con eol: 10, 0 - na liniji 25
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 26
+INFO  15:34:36,869 - Detektovan simbol Var f: 0, 1 - na liniji 27
+INFO  15:34:36,885 - Metoda k ima 2 lokalnih varijabli - na liniji 4
+INFO  15:34:36,885 - PC main metode 19 - na liniji 10
+INFO  15:34:36,885 - Metoda main ima 2 lokalnih varijabli - na liniji 10
+INFO  15:34:36,885 - Broj globalnih varijabli u programu 2 - na liniji 1

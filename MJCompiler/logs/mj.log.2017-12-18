@@ -1,0 +1,34 @@
+ERROR 12:28:57,040 - 
+Sintaksna greska u liniji 3
+ERROR 12:28:57,043 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 3
+ERROR 12:53:11,043 - 
+Sintaksna greska u liniji 7
+ERROR 12:54:26,607 - 
+Sintaksna greska u liniji 6
+ERROR 12:55:36,165 - 
+Sintaksna greska u liniji 6
+ERROR 12:55:36,166 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 6
+ERROR 12:56:06,047 - 
+Sintaksna greska u liniji 6
+ERROR 12:56:47,167 - 
+Sintaksna greska u liniji 6
+ERROR 13:02:01,881 - Sintaksna greska u liniji 3
+ERROR 13:02:32,508 - Sintaksna greska u liniji 3
+ERROR 13:03:17,751 - Sintaksna greska u liniji 3
+ERROR 13:03:17,751 - Sintaksna greska u liniji 3
+ERROR 13:03:17,751 - Sintaksna greska u liniji 3
+ERROR 13:12:06,653 - Sintaksna greska u liniji 3
+ERROR 13:12:39,303 - Sintaksna greska u liniji 3
+ERROR 13:21:50,439 - Sintaksna greska u liniji 3
+ERROR 13:21:50,455 - Sintaksna greska u liniji 6
+ERROR 13:21:50,455 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 6
+ERROR 14:07:10,768 - Sintaksna greska u liniji 5
+ERROR 14:07:10,777 - Fatalna greska, parsiranje se ne moze nastaviti u liniji 9
+ERROR 14:08:06,034 - Sintaksna greska u liniji 6
+ERROR 14:08:38,023 - Sintaksna greska u liniji 6
+ERROR 14:44:25,293 - Sintaksna greska u liniji 6
+DEBUG 14:56:27,414 - Posecen Program na liniji 1
+DEBUG 14:59:26,815 - Posecen Program na liniji 1
+DEBUG 14:59:26,816 - Posecen ProgramName na liniji 1
+DEBUG 14:59:45,437 - Posecen ProgramName na liniji 1
+DEBUG 14:59:45,437 - Posecen Program na liniji 1

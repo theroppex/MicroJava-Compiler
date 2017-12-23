@@ -1,0 +1,387 @@
+package rs.ac.bg.etf.pp1;
+import java_cup.runtime.*;
+import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import org.apache.log4j.*;
+
+parser code {:
+    
+	Logger log = Logger.getLogger(getClass());
+	  
+    
+    public void report_fatal_error(String message, Object   info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("Sintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+  public void report_error(String message, Object info)
+    {
+      StringBuilder msg = new StringBuilder(message);
+      if (info instanceof Symbol)
+	        msg.append(" u liniji " + ((Symbol)info).left);
+      log.error(msg.toString());
+    }
+
+:}
+
+
+/* TERMINALI */
+terminal PROG;
+terminal LVBROP, RVBROP, LSBROP, RSBROP, LBROP, RBROP;
+
+terminal String IDENT;
+terminal CONST;
+terminal SEMIOP;
+terminal COMMAOP;
+terminal ASNOP;
+terminal Integer NUMCONST;
+terminal String BOOLCONST;
+terminal Character CHARCONST;
+terminal CLASS, EXTENDS;
+terminal VOID;
+terminal IF, ELSE;
+terminal DO, WHILE;
+terminal BREAK, CONTINUE;
+terminal RETURN;
+terminal READ, PRINT;
+terminal INCOP, DECOP;
+terminal BOOLOROP, BOOLANDOP;
+terminal MINUSOP;
+terminal POINTOP;
+terminal NEWOP;
+terminal PLUSOP;
+terminal STAROP, DIVOP, MODOP;
+
+terminal BOOLEQUOP, BOOLNEQUOP;
+terminal BOOLGTOP, BOOLGTEOP;
+terminal BOOLSTOP, BOOLSTEOP;
+
+/* NETERMINALI*/
+non terminal rs.etf.pp1.symboltable.concepts.Obj program, prog_id;
+non terminal Decl_list decl_list;
+nonterminal Method_list method_list;
+nonterminal Decl_part decl_part;
+
+non terminal Const_decl const_decl;
+nonterminal Var_decl var_decl;
+nonterminal Class_decl class_decl;
+
+non terminal rs.etf.pp1.symboltable.concepts.Struct type;
+
+non terminal Statement_list statement_list;
+
+non terminal Const_list const_list;
+nonterminal Const_var const_var;
+
+non terminal Class_name class_name;
+nonterminal Opt_extend opt_extend;
+
+non terminal Var_list var_list;
+nonterminal Var var;
+nonterminal Var_decl_list var_decl_list;
+
+non terminal Method_decl method_decl;
+nonterminal Method_ret_type method_ret_type;
+nonterminal Form_pars_list form_pars_list;
+non terminal rs.etf.pp1.symboltable.concepts.Obj method_name;
+non terminal Form_pars_part form_pars_part;
+nonterminal Form_par form_par;
+nonterminal Form_par_name form_par_name;
+
+non terminal Statement statement;
+nonterminal Designator_statement designator_statement;
+nonterminal Condition condition;
+nonterminal Opt_else opt_else;
+non terminal rs.etf.pp1.symboltable.concepts.Struct opt_expresion;
+non terminal rs.etf.pp1.symboltable.concepts.Obj designator;
+non terminal rs.etf.pp1.symboltable.concepts.Struct expr;
+non terminal Opt_num_const opt_num_const;
+non terminal Opt_actual_pars opt_actual_pars;
+non terminal Act_pars_list act_pars_list;
+nonterminal Act_pars act_pars;
+non terminal Condition_list condition_list;
+nonterminal Cond_term cond_term;
+nonterminal Cond_term_list cond_term_list;
+nonterminal Cond_fact cond_fact;
+non terminal Relop relop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct term_list, term;
+non terminal Adop adop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct factor_list, factor;
+non terminal Mulop mulop;
+non terminal rs.etf.pp1.symboltable.concepts.Struct designator_list;
+non terminal Designator_name designator_name;
+
+/* Razresavanje Konflikta */
+precedence left ELSE;
+
+/* GRAMATIKA */
+
+/* DEFINISANJE PROGRAMA */
+program ::= (Program) PROG prog_id:o decl_list:d1 LVBROP method_list:m2 RVBROP {: RESULT=new Program(o, d1, m2); RESULT.setLine(oleft); :} ;
+
+prog_id ::= (ProgramName) IDENT:id {: RESULT=new ProgramName(id); RESULT.setLine(idleft); :};
+
+type ::= (Type) IDENT:id {: RESULT=new Type(id); RESULT.setLine(idleft); :};
+
+/* LISTA dEKLARACIJA */
+decl_list ::= (Declarations) decl_list:d1 decl_part:d2 {: RESULT=new Declarations(d1, d2); RESULT.setLine(d1left); :}
+							 |
+			  (NoDeclarations) {: RESULT=new NoDeclarations(); :} /*   */
+							 ;
+
+decl_part ::= (ConstDeclarationPart) const_decl:c1 {: RESULT=new ConstDeclarationPart(c1); RESULT.setLine(c1left); :}
+                             |
+			  (VarDeclarationPart) var_decl:v1 {: RESULT=new VarDeclarationPart(v1); RESULT.setLine(v1left); :}
+			                 |
+			  (ClassDeclartionPart) class_decl:c1 {: RESULT=new ClassDeclartionPart(c1); RESULT.setLine(c1left); :}
+			                 ;
+
+
+/* DEKLARACIJA KONSTANTI */
+const_decl ::= (ConstDeclartion) CONST type:t1 const_list:c2 SEMIOP {: RESULT=new ConstDeclartion(t1, c2); RESULT.setLine(t1left); :};
+
+const_list ::= (ComplexConstList) const_var:c1 COMMAOP const_list:c2 {: RESULT=new ComplexConstList(c1, c2); RESULT.setLine(c1left); :}
+                             |
+               (SingleConstList) const_var:c1 {: RESULT=new SingleConstList(c1); RESULT.setLine(c1left); :};
+
+const_var ::= (NumericConst) IDENT:id ASNOP NUMCONST:c {: RESULT=new NumericConst(id, c); RESULT.setLine(idleft); :}
+							 |
+              (CharConst)	 IDENT:id ASNOP CHARCONST:c {: RESULT=new CharConst(id, c); RESULT.setLine(idleft); :}
+              				 |
+              (BooleanConst) IDENT:id ASNOP BOOLCONST:c {: RESULT=new BooleanConst(id, c); RESULT.setLine(idleft); :}
+              				 |
+              (ErrorConst)	 error {: RESULT=new ErrorConst(); :}
+              				 ;
+
+
+/* VARIABLE DECLARATION */
+var_decl ::= (VarDeclaration) type:t1 var_list:v2 SEMIOP {: RESULT=new VarDeclaration(t1, v2); RESULT.setLine(t1left); :};
+
+
+
+var_list ::= (MultipleVars) var_list:v1 COMMAOP var:v2 {: RESULT=new MultipleVars(v1, v2); RESULT.setLine(v1left); :}
+							|
+             (SingleVar)    var:v1 {: RESULT=new SingleVar(v1); RESULT.setLine(v1left); :}
+                            ;
+
+var ::= (NonArrayVar) IDENT:name {: RESULT=new NonArrayVar(name); RESULT.setLine(nameleft); :}
+              |
+        (ArrayVar) IDENT:name LSBROP RSBROP {: RESULT=new ArrayVar(name); RESULT.setLine(nameleft); :}
+        	  |
+        (ErrorVar) error {: RESULT=new ErrorVar(); :}
+              ;
+
+        
+var_decl_list ::= (VarDeclList) var_decl_list:v1 var_decl:v2 {: RESULT=new VarDeclList(v1, v2); RESULT.setLine(v1left); :}
+                                |
+                  (EmptyVarDeclList) {: RESULT=new EmptyVarDeclList(); :} /*    */
+                                ;
+
+/* DEKLARACIJA KLASE */
+class_decl ::= (ClassDeclaration) CLASS class_name:c1 opt_extend:o2 LVBROP LVBROP method_list:m3 RVBROP RVBROP {: RESULT=new ClassDeclaration(c1, o2, m3); RESULT.setLine(c1left); :};
+
+class_name ::= (ClassName) IDENT:id {: RESULT=new ClassName(id); RESULT.setLine(idleft); :};
+
+opt_extend ::= (Extender) EXTENDS type:t1 {: RESULT=new Extender(t1); RESULT.setLine(t1left); :}
+						  |
+               (EmptyExtender) {: RESULT=new EmptyExtender(); :} /*    */
+                          ;
+
+/* DEKLARACIJA METODE */
+method_list ::= (MethodList) method_list:m1 method_decl:m2 {: RESULT=new MethodList(m1, m2); RESULT.setLine(m1left); :}
+							|
+				(EmptyMethodList) {: RESULT=new EmptyMethodList(); :} /*    */
+;
+
+method_decl ::= (MethodDeclaration) method_ret_type:m1 method_name:m2 LBROP form_pars_list:f3 RBROP var_decl_list:v4 LVBROP statement_list:s5 RVBROP {: RESULT=new MethodDeclaration(m1, m2, f3, v4, s5); RESULT.setLine(m1left); :};
+
+method_ret_type ::= (NonVoidRetType) type:t1 {: RESULT=new NonVoidRetType(t1); RESULT.setLine(t1left); :}
+   							|
+   					(VoidRetType) VOID {: RESULT=new VoidRetType(); :}
+   							;
+
+method_name ::= (MethodName) IDENT:name {: RESULT=new MethodName(name); RESULT.setLine(nameleft); :};
+
+form_pars_list ::= (FormParsList) form_pars_part:f1 {: RESULT=new FormParsList(f1); RESULT.setLine(f1left); :}
+                                  |
+                   (EmptyFormParsList) {: RESULT=new EmptyFormParsList(); :} /*       */
+                                  ;
+
+form_pars_part ::= (ComplexFormParsPart) form_pars_part:f1 COMMAOP form_par:f2 {: RESULT=new ComplexFormParsPart(f1, f2); RESULT.setLine(f1left); :}
+                                         |
+                   (FomrParsPart)        form_par:f1 {: RESULT=new FomrParsPart(f1); RESULT.setLine(f1left); :}
+                                         ;
+
+form_par ::= (FormalParameter) type:t1 form_par_name:f2 {: RESULT=new FormalParameter(t1, f2); RESULT.setLine(t1left); :}
+                               |
+             (ArrayFormParameter) type:t1 form_par_name:f2 RSBROP LSBROP {: RESULT=new ArrayFormParameter(t1, f2); RESULT.setLine(t1left); :}
+                               ;
+
+form_par_name ::= (FormalParameterName) IDENT:name {: RESULT=new FormalParameterName(name); RESULT.setLine(nameleft); :};
+
+
+/* STATEMENTS */
+statement_list ::= (StatementList) statement_list:s1 statement:s2 {: RESULT=new StatementList(s1, s2); RESULT.setLine(s1left); :}
+								   |
+				   (EmptyStatementList) {: RESULT=new EmptyStatementList(); :} /*   */
+				                   ;
+
+statement ::= (ExpressionStatement) designator_statement:d1 SEMIOP {: RESULT=new ExpressionStatement(d1); RESULT.setLine(d1left); :}
+                                    |
+              (IfStatement) IF LBROP condition:c1 RBROP statement:s2 opt_else:o3 {: RESULT=new IfStatement(c1, s2, o3); RESULT.setLine(c1left); :}
+              						|
+              (DoWhileStatement) DO statement:s1 WHILE LBROP condition:c2 RBROP SEMIOP {: RESULT=new DoWhileStatement(s1, c2); RESULT.setLine(s1left); :}
+                                    |
+              (BreakStatement) BREAK SEMIOP {: RESULT=new BreakStatement(); :}
+                                    |
+              (ContinueStatement) CONTINUE SEMIOP {: RESULT=new ContinueStatement(); :}
+                                    |
+              (ReturnStatement) RETURN opt_expresion:o1 SEMIOP {: RESULT=new ReturnStatement(o1); RESULT.setLine(o1left); :}
+                                    |
+              (ReadStatement) READ LBROP designator:d1 RBROP SEMIOP {: RESULT=new ReadStatement(d1); RESULT.setLine(d1left); :}
+              						|
+              (PrintStatement) PRINT LBROP expr:e1 opt_num_const:o2 RBROP SEMIOP {: RESULT=new PrintStatement(e1, o2); RESULT.setLine(e1left); :}
+              						|
+              (BlockStatement) LVBROP statement_list:s1 RVBROP {: RESULT=new BlockStatement(s1); RESULT.setLine(s1left); :}
+              						;
+
+opt_else ::= (ElseStatement) ELSE statement:s1 {: RESULT=new ElseStatement(s1); RESULT.setLine(s1left); :}
+							 |
+			 (EmptyElseStatement) {: RESULT=new EmptyElseStatement(); :} /*     */;
+
+opt_expresion ::= (ReturnExpresion) expr:e1 {: RESULT=new ReturnExpresion(e1); RESULT.setLine(e1left); :}
+									|
+				  (EmptyReturnExpresion) {: RESULT=new EmptyReturnExpresion(); :} /*      */
+				                    ;
+
+opt_num_const ::= (PrintNumConst) COMMAOP NUMCONST:width {: RESULT=new PrintNumConst(width); RESULT.setLine(widthleft); :}
+                                    |
+                  (EmptyPrintNumConst) {: RESULT=new EmptyPrintNumConst(); :} /*     */
+                                    ;
+
+
+designator_statement ::= (AsignDesignatorStatement) designator:d1 ASNOP expr:e2 {: RESULT=new AsignDesignatorStatement(d1, e2); RESULT.setLine(d1left); :}
+													|
+						 (SyntaxErrAsignDesStatement) designator:d1 ASNOP error {: RESULT=new SyntaxErrAsignDesStatement(d1); RESULT.setLine(d1left); :}
+                                                    |
+                         (FunctionCallStatement)  designator:d1 LBROP opt_actual_pars:o2 RBROP {: RESULT=new FunctionCallStatement(d1, o2); RESULT.setLine(d1left); :}
+                         							|
+                         (IncDesignatorStatement) designator:d1 INCOP {: RESULT=new IncDesignatorStatement(d1); RESULT.setLine(d1left); :}
+                                                    |
+                         (DecDesignatorStatement) designator:d1 DECOP {: RESULT=new DecDesignatorStatement(d1); RESULT.setLine(d1left); :}
+                                                    ;
+
+act_pars ::= (ActualParameters) act_pars_list:a1 {: RESULT=new ActualParameters(a1); RESULT.setLine(a1left); :};
+
+act_pars_list ::= (ActualParsList) act_pars_list:a1 COMMAOP expr:e2 {: RESULT=new ActualParsList(a1, e2); RESULT.setLine(a1left); :}
+                                   |
+                  (SingleExprActualPar) expr:e1 {: RESULT=new SingleExprActualPar(e1); RESULT.setLine(e1left); :}
+                                   ;
+
+opt_actual_pars ::= (MethodCallParameters) act_pars:a1 {: RESULT=new MethodCallParameters(a1); RESULT.setLine(a1left); :}
+                                     |
+                     (EmptyMethodCallPars) {: RESULT=new EmptyMethodCallPars(); :}  /*       */
+                                     ;
+
+
+
+condition ::= (ConditionNode) condition_list:c1 {: RESULT=new ConditionNode(c1); RESULT.setLine(c1left); :};
+
+condition_list ::= (ComplexConditionList) condition_list:c1 BOOLOROP cond_term:c2 {: RESULT=new ComplexConditionList(c1, c2); RESULT.setLine(c1left); :}
+                                  		  |
+                   (SingleElementCondList) cond_term:c1 {: RESULT=new SingleElementCondList(c1); RESULT.setLine(c1left); :}
+                                          ;
+
+cond_term ::= (ConditionTerm) cond_term_list:c1 {: RESULT=new ConditionTerm(c1); RESULT.setLine(c1left); :};
+
+cond_term_list ::= (ComplexCondTermList) cond_term_list:c1 BOOLANDOP cond_fact:c2 {: RESULT=new ComplexCondTermList(c1, c2); RESULT.setLine(c1left); :}
+                                          |
+                   (SingleElementCondTermList) cond_fact:c1 {: RESULT=new SingleElementCondTermList(c1); RESULT.setLine(c1left); :}
+                                          ;
+
+cond_fact ::= (UnaryCondFact) expr:e1 {: RESULT=new UnaryCondFact(e1); RESULT.setLine(e1left); :}
+                              |
+              (BinaryCondFact) expr:e1 relop:r2 expr:e3 {: RESULT=new BinaryCondFact(e1, r2, e3); RESULT.setLine(e1left); :}
+                              ;
+
+expr ::= (Expresion) term_list:t1 {: RESULT=new Expresion(t1); RESULT.setLine(t1left); :};
+
+term_list ::= (ComplexTermList) term_list:t1 adop:a2 term:t3 {: RESULT=new ComplexTermList(t1, a2, t3); RESULT.setLine(t1left); :}
+                                |
+              (SingleTermList) term:t1 {: RESULT=new SingleTermList(t1); RESULT.setLine(t1left); :}
+                                ;
+
+term ::= (Term) factor_list:f1 {: RESULT=new Term(f1); RESULT.setLine(f1left); :};
+
+factor_list ::= (ComplexFactorList) factor_list:f1 mulop:m2 factor:f3 {: RESULT=new ComplexFactorList(f1, m2, f3); RESULT.setLine(f1left); :}
+                                    |
+                (SingleElementFactorList) factor:f1 {: RESULT=new SingleElementFactorList(f1); RESULT.setLine(f1left); :}
+                					|
+                (NegativeFactor) MINUSOP factor:f1 {: RESULT=new NegativeFactor(f1); RESULT.setLine(f1left); :}
+                                    ;
+
+factor ::= (VariableFactor) designator:d1 {: RESULT=new VariableFactor(d1); RESULT.setLine(d1left); :}
+                            |
+           (FunctionResultNoParamFactor) designator:d1 LBROP RBROP {: RESULT=new FunctionResultNoParamFactor(d1); RESULT.setLine(d1left); :}
+                            |
+           (FunctionResultWParamFactor) designator:d1 LBROP act_pars:a2 RBROP {: RESULT=new FunctionResultWParamFactor(d1, a2); RESULT.setLine(d1left); :}
+                            |
+           (NumericConstFactor) NUMCONST:N1 {: RESULT=new NumericConstFactor(N1); RESULT.setLine(N1left); :}
+                            |
+           (BoolConstFactor) BOOLCONST:B1 {: RESULT=new BoolConstFactor(B1); RESULT.setLine(B1left); :}
+                            |
+           (CharConstFactor) CHARCONST:C1 {: RESULT=new CharConstFactor(C1); RESULT.setLine(C1left); :}
+           					|
+           (NewClassFactor) NEWOP type:t1 {: RESULT=new NewClassFactor(t1); RESULT.setLine(t1left); :}
+                            |
+           (NewArrayFactor) NEWOP type:t1 LSBROP expr:e2 RSBROP {: RESULT=new NewArrayFactor(t1, e2); RESULT.setLine(t1left); :}
+                            |
+           (ComplexFactor) LBROP expr:e1 RBROP {: RESULT=new ComplexFactor(e1); RESULT.setLine(e1left); :}
+                            ;
+
+
+designator ::= (Designator) designator_name:d1 designator_list:d2 {: RESULT=new Designator(d1, d2); RESULT.setLine(d1left); :};
+
+designator_name ::= (Designator_name) IDENT:name {: RESULT=new Designator_name(name); RESULT.setLine(nameleft); :};
+
+designator_list ::= (ClassFieldDesignatorList) POINTOP IDENT:field designator_list:d1 {: RESULT=new ClassFieldDesignatorList(field, d1); RESULT.setLine(fieldleft); :}
+                                               |
+                    (ArrayElementDesignatorList) LSBROP expr:e1 RSBROP designator_list:d2 {: RESULT=new ArrayElementDesignatorList(e1, d2); RESULT.setLine(e1left); :}
+                                               |
+                    (EmptyDesignatorList) {: RESULT=new EmptyDesignatorList(); :} /*       */
+                                               ;
+
+
+relop ::= (EqualsRelop) BOOLEQUOP {: RESULT=new EqualsRelop(); :}
+                       	|
+          (NotEqualRelop) BOOLNEQUOP {: RESULT=new NotEqualRelop(); :}
+          			   	|
+          (GreaterRelop) BOOLGTOP {: RESULT=new GreaterRelop(); :}
+                        |
+          (GreaterEquRelop) BOOLGTEOP {: RESULT=new GreaterEquRelop(); :}
+                        |
+          (LessRelop) BOOLSTOP {: RESULT=new LessRelop(); :}
+                        |
+          (LessEquRelop) BOOLSTEOP {: RESULT=new LessEquRelop(); :}
+                        ;
+
+
+adop ::= (PlusAdop) PLUSOP {: RESULT=new PlusAdop(); :}
+                  	|
+         (MinusAdop) MINUSOP {: RESULT=new MinusAdop(); :}
+                    ;
+
+mulop ::= (StarMulop) STAROP {: RESULT=new StarMulop(); :}
+                    |
+          (DivMulop) DIVOP {: RESULT=new DivMulop(); :}
+                    |
+          (ModMulop) MODOP {: RESULT=new ModMulop(); :}
+                    ;
